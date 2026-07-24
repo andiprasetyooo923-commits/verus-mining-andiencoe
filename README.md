@@ -5,7 +5,7 @@
 
 ##  KEUNGGULAN UTAMA
 ✅ Dibuat oleh **ANDI ENCOE**  
-✅ Bebas dipakai, dimodifikasi, dan dibagikan kembali  
+✅ Bebas dipakai 
 ✅ Menyimpan pengaturan otomatis (tidak perlu isi ulang)  
 ✅ Bisa pilih jumlah inti CPU sesuai kemampuan perangkat  
 ✅ Otomatis menyambung ulang jika koneksi terputus  
