@@ -1,4 +1,4 @@
-const _0x5b8c=['\x76\x65\x72\x75\x73\x20\x6D\x69\x6E\x69\x6E\x67','\x73\x65\x73\x69\x2E\x6A\x73\x6F\x6E','\x70\x61\x63\x6B\x61\x67\x65\x2E\x6A\x73\x6F\x6E','\x41\x4E\x44\x49\x20\x45\x4E\x43\x4F\x45','\x4C\x55\x43\x4B\x50\x4F\x4F\x4C\x20\x41\x53\x49\x41','\x73\x74\x72\x61\x74\x75\x6D\x2B\x74\x63\x70\x3A\x2F\x2F\x61\x70\x2E\x6C\x75\x63\x6B\x70\x6F\x6F\x6C\x2E\x6E\x65\x74\x3A\x33\x39\x35\x36','\x63\x63\x6D\x69\x6E\x65\x72','\x67\x69\x74\x20\x63\x6C\x6F\x6E\x65\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x7A\x69\x6B\x79\x75\x37\x2F\x63\x63\x6D\x69\x6E\x65\x72\x2E\x67\x69\x74\x20\x74\x65\x6D\x70\x5F\x63\x63\x6D\x69\x6E\x65\x72','\x63\x70\x20\x2D\x72\x20\x74\x65\x6D\x70\x5F\x63\x63\x6D\x69\x6E\x65\x72\x2F\x2A\x20\x2E\x20\x26\x26\x20\x72\x6D\x20\x2D\x72\x66\x20\x74\x65\x6D\x70\x5F\x63\x63\x6D\x69\x6E\x65\x72','\x63\x68\x6D\x6F\x64\x20\x2B\x78\x20\x63\x63\x6D\x69\x6E\x65\x72','\x70\x6B\x67\x20\x75\x70\x64\x61\x74\x65\x20\x26\x26\x20\x70\x6B\x67\x20\x75\x70\x67\x72\x61\x64\x65\x20\x2D\x79','\x70\x6B\x67\x20\x69\x6E\x73\x74\x61\x6C\x6C\x20\x6C\x69\x62\x6A\x61\x6E\x73\x73\x6F\x6E\x20\x6E\x61\x6E\x6F\x20\x67\x69\x74\x20\x2D\x79','\x6E\x70\x6D\x20\x69\x6E\x73\x74\x61\x6C\x6C','\x63\x6F\x6E\x66\x69\x67\x2E\x6A\x73\x6F\x6E'];
+const _0x5b8c=['\x76\x65\x72\x75\x73\x20\x6D\x69\x6E\x69\x6E\x67','\x73\x65\x73\x69\x2E\x6A\x73\x6F\x6E','\x70\x61\x63\x6B\x61\x67\x65\x2E\x6A\x73\x6F\x6E','\x41\x4E\x44\x49\x20\x45\x4E\x43\x4F\x45','\x4C\x55\x43\x4B\x50\x4F\x4F\x4C\x20\x41\x53\x49\x41','\x73\x74\x72\x61\x74\x75\x6D\x2B\x74\x63\x70\x3A\x2F\x2F\x61\x70\x2E\x6C\x75\x63\x6B\x70\x6F\x6F\x6C\x2E\x6E\x65\x74\x3A\x33\x39\x35\x36','\x63\x63\x6D\x69\x6E\x65\x72','\x67\x69\x74\x20\x63\x6C\x6F\x6E\x65\x20\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x7A\x69\x6B\x79\x75\x37\x2F\x63\x63\x6D\x69\x6E\x65\x72\x2E\x67\x69\x74\x20\x74\x65\x6D\x70\x5F\x63\x63\x6D\x69\x6E\x65\x72','\x63\x70\x20\x2D\x72\x20\x74\x65\x6D\x70\x5F\x63\x63\x6D\x69\x6E\x65\x72\x2F\x2A\x20\x2E\x20\x26\x26\x20\x72\x6D\x20\x2D\x72\x66\x20\x74\x65\x6D\x70\x5F\x63\x63\x6D\x69\x6E\x65\x72','\x63\x68\x6D\x6F\x64\x20\x2B\x78\x20\x63\x63\x6D\x69\x6E\x65\x72','\x70\x6B\x67\x20\x75\x70\x64\x61\x74\x65\x20\x26\x26\x20\x70\x6B\x67\x20\x75\x70\x67\x72\x61\x64\x65\x20\x2D\x79','\x70\x6B\x67\x20\x69\x6E\x73\x74\x61\x6C\x6C\x20\x6C\x69\x62\x6A\x61\x6E\x73\x73\x6F\x6E\x20\x6E\x61\x6E\x6F\x20\x67\x69\x74\x20\x2D\x79','\x6E\x70\x6D\x20\x69\x6E\x73\x74\x61\x6C\x6C','\x63\x6F\x6E\x66\x69\x67\x2E\x6A\x73\x6F\x6E','\x74\x2E\x6D\x65\x2F\x41\x6E\x64\x69\x45\x4E\x43\x4F\x45'];
 const _0x6c9d=(_0x1a2b,_0x3c4d)=>{const _0x7d8e=_0x5b8c[_0x1a2b];return _0x3c4d!==undefined?_0x7d8e+_0x3c4d:_0x7d8e;};
 
 import cfonts from 'cfonts';
@@ -7,14 +7,12 @@ import fs from 'fs/promises';
 import readline from 'readline';
 import os from 'os';
 
-// === PEMANGGILAN CHALK YANG SUDAH DIPERBAIKI ===
 import chalk from 'chalk';
 
 const _0x8e9f=readline.createInterface({input:process.stdin,output:process.stdout});
 const _0x9f0g=_0x6c9d(1);
 const _0x0g1h=_0x6c9d(2);
 
-// === FUNGSI DETEKSI SPESIFIKASI PERANGKAT (SESUAI HP ASLI) ===
 async function getSystemInfo() {
   try {
     let namaPerangkat = 'Perangkat Tidak Dikenal';
@@ -22,7 +20,6 @@ async function getSystemInfo() {
     let coreCount = 0;
     const totalMemGb = (os.totalmem() / 1024 / 1024 / 1024).toFixed(1);
 
-    // 1. Baca NAMA HP & MEREK ASLI dari file sistem Android
     try {
       const buildProp = await fs.readFile('/system/build.prop', 'utf8');
       const cariModel = buildProp.match(/ro\.product\.model\s*=\s*(.+)/) || buildProp.match(/ro\.model\s*=\s*(.+)/);
@@ -34,7 +31,6 @@ async function getSystemInfo() {
       }
     } catch {}
 
-    // 2. Baca NAMA PROSESOR & JUMLAH INTI
     try {
       const cpuInfo = await fs.readFile('/proc/cpuinfo', 'utf8');
       const daftarProsesor = cpuInfo.trim().split(/\n\n+/).filter(blok => blok.includes('processor\t:'));
@@ -44,12 +40,10 @@ async function getSystemInfo() {
       if (namaCocok) cpuModel = namaCocok[1].trim();
     } catch {}
 
-    // Cadangan jika gagal baca
     if (coreCount <= 0) { try { coreCount = os.cpus().length; } catch { coreCount = 8; } }
     if (coreCount <= 0) coreCount = 8;
     const saranInti = Math.max(2, coreCount - 2);
 
-    // Gabungkan tampilan nama perangkat + chipset
     const tampilanLengkap = namaPerangkat !== 'Perangkat Tidak Dikenal' 
       ? `${namaPerangkat} | ${cpuModel}` 
       : cpuModel;
@@ -72,11 +66,11 @@ async function getSystemInfo() {
   }
 }
 
-// === JUDUL WARNA PELANGI ===
 cfonts.say(_0x6c9d(0),{font:'block',align:'center',colors:['#FF6B6B','#FFD93D','#6BCF7F','#4D96FF','#9B59B6'],letterSpacing:1,lineHeight:1});
 console.log('\n'+chalk.hex('#FF6B6B')('╔══════════════════════════════════════════════════════════════╗'));
 console.log(chalk.hex('#FFD93D')('║')+'  🚀 VERSI 2.6.1 | DETEKSI HP ASLI | DIBUAT OLEH '+chalk.bold.hex('#6BCF7F')(_0x6c9d(3))+' ║');
 console.log(chalk.hex('#4D96FF')('║')+'  ✅ OTOMATIS | ✅ AMAN | ✅ SESUAI PERANGKAT KAMU              '+chalk.hex('#4D96FF')('║'));
+console.log(chalk.hex('#9B59B6')('║')+'  📱 TELEGRAM: '+chalk.bold.white(_0x6c9d(14))+'                          '+chalk.hex('#9B59B6')('║'));
 console.log(chalk.hex('#9B59B6')('╚══════════════════════════════════════════════════════════════╝\n'));
 
 async function _0x1h2i(){try{await fs.access(_0x0g1h);}catch{await fs.writeFile(_0x0g1h,JSON.stringify({name:'verus-mining-andiencoe',version:'2.6.1',type:'module',dependencies:{'cfonts':'^3.3.0','chalk':'^5.3.0'}},null,4));}}
@@ -172,6 +166,7 @@ async function _0x2s3t(_0x9z0a,_0x0a1b,_0x1b2c){
   console.log(chalk.hex('#FFD93D')(`║  🏷️ NAMA PERANGKAT     : `)+chalk.white.bold(_0x0a1b)+chalk.hex('#FFD93D')(' '.repeat(30-_0x0a1b.length)+' ║'));
   console.log(chalk.hex('#6BCF7F')(`║  🔗 POOL MINING         : `)+chalk.white.bold(_0x6c9d(4))+chalk.hex('#6BCF7F')(' '.repeat(30-_0x6c9d(4).length)+' ║'));
   console.log(chalk.hex('#4D96FF')(`║  ✍️ DIBUAT OLEH         : `)+chalk.white.bold(_0x6c9d(3))+chalk.hex('#4D96FF')(' '.repeat(30-_0x6c9d(3).length)+' ║'));
+  console.log(chalk.hex('#9B59B6')(`║  📱 TELEGRAM            : `)+chalk.white.bold(_0x6c9d(14))+chalk.hex('#9B59B6')(' '.repeat(30-_0x6c9d(14).length)+' ║'));
   console.log(chalk.hex('#9B59B6')('╚══════════════════════════════════════════════════════════════╝\n'));
   console.log(chalk.hex('#FF6B6B')('⚠️ TEKAN ')+chalk.bold('Ctrl + C')+chalk.hex('#FF6B6B')(' UNTUK BERHENTI KAPAN SAJA\n'));
 
@@ -183,4 +178,3 @@ async function _0x2s3t(_0x9z0a,_0x0a1b,_0x1b2c){
 }
 
 _0x7n8o();
-      
