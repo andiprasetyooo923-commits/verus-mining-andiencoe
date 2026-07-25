@@ -1,0 +1,9 @@
+{
+  "name": "verus-mining-andiencoe",
+  "version": "2.6.0",
+  "type": "module",
+  "dependencies": {
+    "cfonts": "^3.3.0",
+    "chalk": "^5.3.0"
+  }
+}
