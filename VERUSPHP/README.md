@@ -41,8 +41,8 @@ yes | pkg update && pkg upgrade -y
 # 2. Pasang paket yang dibutuhkan
 yes | pkg install libjansson git php termux-tools -y
 
-# 3. Unduh repositori ini
-git clone https://github.com/andiprasetyooo923/verus-mining-andiencoe.git
+# 3. Unduh repositori ini (LINK SUDAH SESUAI REPO KAMU)
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
 # 4. Masuk ke folder VERUSPHP
 cd verus-mining-andiencoe/VERUSPHP
