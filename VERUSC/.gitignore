@@ -1,0 +1,14 @@
+# File hasil kompilasi
+verus
+verus.exe
+*.out
+*.o
+
+# File simpanan data konfigurasi
+verus.conf
+*.conf
+
+# File sementara Termux / sistem
+*.log
+.DS_Store
+thumbs.db
