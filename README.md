@@ -1,5 +1,5 @@
 # ⛏️ VERUS MINING ANDI ENCOE
-Kumpulan alat mining Verus Coin (VRSC) khusus untuk HP Android pakai Termux.
+Kumpulan alat mining Verus Coin (VRSC) yang **bisa dijalankan di HP Android (Termux) maupun VPS / Server Linux**!
 
 ✅ **Dibuat oleh**: ANDI ENCOE
 ✅ **Telegram**: [t.me/AndiENCOE](https://t.me/AndiENCOE)
@@ -12,24 +12,29 @@ Klik nama folder untuk melihat petunjuk lengkapnya:
 
 | Folder | Bahasa | Kelebihan Utama | Kebutuhan |
 |---|---|---|---|
-| 📂 **VERUSC** | Bahasa C | Paling ringan & cepat, hemat baterai | Tidak butuh tambahan bahasa pemrograman |
-| 📂 **VERUSJS** | JavaScript | Tampilan lebih menarik & berwarna | Butuh Node.js & npm |
-| 📂 **VERUSPHP** | PHP | Paling mudah dipasang & dikonfigurasi | Butuh PHP saja |
+| 📂 **VERUSC** | Bahasa C | Paling ringan & cepat, hemat daya | Tidak butuh bahasa tambahan |
+| 📂 **VERUSJS** | JavaScript | Tampilan menarik & berwarna | Node.js + npm |
+| 📂 **VERUSPHP** | PHP | Paling mudah pasang & atur | PHP saja |
+
+> ✅ **SEMUA VERSI**: Kompatibel **ARM64 (HP) & x86_64 (VPS)**!
 
 ---
 
 ## 📚 SUMBER & UCAPAN TERIMA KASIH
-- Program mining inti: `ccminer` buatan pengembang asli, dimodifikasi oleh **zikyu7** 
-- Proyek ini hanya menyederhanakan cara pemakaian, semua hak cipta tetap milik pembuat aslinya.
+- Program mining inti: `ccminer` asli, dimodifikasi khusus Android & Linux oleh **zikyu7**
+- Proyek ini menyederhanakan pemakaian, hak cipta tetap milik pembuat asli.
 
 ---
 
-## 🚀 CARA CEPAT AMBIL SEMUA FILE
+## 🚀 CARA PASANG & JALANKAN
+### 📱 DI HP ANDROID (TERMUX)
 ```bash
-# Klon seluruh repositori
+# Unduh semua file
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+cd verus-mining-andiencoe
 
 # Masuk ke folder yang diinginkan, contoh VERUSPHP:
-cd verus-mining-andiencoe/VERUSPHP
+cd VERUSPHP
 
-# Jalankan sesuai petunjuk di dalam foldernya
+# Pasang paket & jalankan
+php bot.php
