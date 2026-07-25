@@ -6,6 +6,14 @@ Alat mining VRSC otomatis, ringan dan mudah dipakai di HP Android.
 
 ---
 
+##📚 SUMBER PROGRAM
+ 
+- Program mining inti: ccminer buatan pengembang asli & zikyu7
+
+- Proyek ini hanya memudahkan cara pakai, semua hak cipta tetap milik pembuat aslinya.
+
+---
+
 ## 🚀 CARA PAKAI LANGSUNG
 Salin perintah ini satu per satu di Termux:
 
