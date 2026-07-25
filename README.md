@@ -19,3 +19,7 @@ Klik nama folder untuk melihat petunjuk lengkapnya:
 ## 🚀 CARA CEPAT AMBIL SEMUA FILE
 ```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+---
+## 📚 Sumber Program
+- Program mining inti: **ccminer** buatan pengembang asli & zikyu7
+- Proyek ini hanya memudahkan cara pakai, semua hak cipta tetap milik pembuat aslinya.
