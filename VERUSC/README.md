@@ -5,15 +5,6 @@
 Alat mining VRSC otomatis, ringan dan mudah dipakai di HP Android.
 
 ---
-📚 SUMBER & UCAPAN TERIMA KASIH
-
-Program mining inti: **ccminer Verus**
-- Christian Buchner
-- Christian H. (Chris84)
-- Tanguy Pruvot
-- Darktron
-- Oink70
-- **zikyu7** — pengembangan untuk Android/ARM
 
 🔗 https://github.com/zikyu7/ccminer
 
@@ -39,3 +30,14 @@ cd verus-mining-andiencoe/VERUSC
 # 4. Kompilasi & jalankan
 gcc verus.c -o verus
 ./verus
+
+
+📚 SUMBER & UCAPAN TERIMA KASIH
+
+Program mining inti: **ccminer Verus**
+- Christian Buchner
+- Christian H. (Chris84)
+- Tanguy Pruvot
+- Darktron
+- Oink70
+- **zikyu7** — pengembangan untuk Android/ARM
