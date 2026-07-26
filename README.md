@@ -19,6 +19,8 @@ Folder| Language| Main Advantage| Requirements
 📂 VERUSPHYTHON| Python| Simple and easy to use| Python 3
 📂 VERUSVPS| C / Binary| Ready-to-run VPS mining| Linux x86-64
 
+---
+
 📱 ANDROID / TERMUX
 
 The following versions are designed for Android phones using Termux:
@@ -27,6 +29,8 @@ The following versions are designed for Android phones using Termux:
 - VERUSJS
 - VERUSPHP
 - VERUSPHYTHON
+
+---
 
 🖥️ VPS / LINUX
 
@@ -46,7 +50,7 @@ If the output is:
 
 x86_64
 
-the "VERUSVPS" binary is compatible.
+the VERUSVPS binary is compatible.
 
 «⚠️ VERUSVPS is compiled for Linux x86-64 and is not intended for ARM64 VPS.»
 
@@ -121,9 +125,11 @@ Original developers and contributors include:
 
 VERUSVPS / Linux Mining Core
 
-Mining program: Hellminer
+Mining program: Hellminer / hminer
 
 Hellminer is used as the mining core for the VERUSVPS version.
+
+🔗 https://github.com/hellcatz/hminer
 
 🙏 Special thanks to the Hellminer developers and contributors for their work on VerusHash mining software.
 
