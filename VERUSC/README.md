@@ -37,6 +37,9 @@ cd verus-mining-andiencoe/VERUSC
 chmod +x verus
 ./verus
 
+«Catatan: File "verus" sudah berupa binary yang siap dijalankan di Termux Android, sehingga pengguna tidak perlu melakukan kompilasi ulang.»
+
+---
 
 📚 SUMBER & UCAPAN TERIMA KASIH
 
