@@ -13,7 +13,8 @@ Telegram: t.me/AndiEncoe
 - ✅ Atur CPU Core
 - ✅ Simpan pengaturan otomatis
 - ✅ Khusus Android/Termux
-- ✅ Menggunakan Python venv
+- ✅ Bisa dijalankan langsung dengan Python
+- ✅ Tidak wajib menggunakan venv
 
 ---
 
@@ -33,25 +34,20 @@ git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.gi
 # Masuk ke folder
 cd verus-mining-andiencoe/VERUSPHYTHON
 
-# Buat virtual environment
-python -m venv venv
-
-# Aktifkan venv
-source venv/bin/activate
-
-# Jalankan miner
+# Jalankan langsung
 python vrs_miner.py
+
+⚡ CARA CEPAT — SATU BARIS
+
+pkg update && pkg upgrade -y && pkg install python git libjansson -y && git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git && cd verus-mining-andiencoe/VERUSPHYTHON && python vrs_miner.py
 
 ---
 
 🔄 JALANKAN LAGI
 
-Jika repository dan venv sudah pernah dibuat:
+Jika repository sudah pernah diunduh:
 
 cd ~/verus-mining-andiencoe/VERUSPHYTHON
-
-source venv/bin/activate
-
 python vrs_miner.py
 
 ---
