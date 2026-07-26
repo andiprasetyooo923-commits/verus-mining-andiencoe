@@ -1,56 +1,56 @@
-# ⛏️ TAMBANG VERUS PYTHON
-**Alat Tambang Verus Santai Khusus Android / Termux & VPS / Server Linux**
-> Dibuat khusus untuk memudahkan penambangan koin Verus (VRSC) di HP Android maupun VPS tanpa ribet.
+⛏️ TAMBANG VERUS PYTHON
 
----
+Alat mining VRSC otomatis, ringan, dan mudah dipakai di HP Android/Termux & VPS/Linux.
 
-## ✨ Fitur Utama
-✅ Tampilan menu rapi & mudah dipakai pemula
-✅ Otomatis mengunduh & menyiapkan alat tambang ccminer
-✅ Dukungan Penuh: **Android/Termux** & **VPS/Server Linux**
-✅ Mendukung 2 Pool Terbaik: **Luckpool Asia** & **Vipor Asia**
-✅ Bisa atur jumlah inti CPU sesuai kebutuhan
-✅ Menyimpan pengaturan otomatis, tidak perlu isi ulang setiap kali buka
-✅ Menu khusus dukungan pembuat
-✅ Bisa ganti pool, ubah inti, atau buat data baru kapan saja
-✅ Menggunakan **Lingkungan Virtual (venv)** agar paket tidak bentrok
-✅ Bebas error & dioptimalkan untuk arsitektur ARM & x86/x64
+Oleh: ANDI ENCOE ✅
+Telegram: "t.me/AndiEncoe" (https://t.me/AndiEncoe)
 
----
+✨ Fitur
 
-## 📋 Info Pembuat
-- **Nama**: ANDI ENCOE
-- **Kontak Telegram**: [t.me/AndiEncoe](https://t.me/AndiEncoe)
+- ✅ Luckpool & Vipor
+- ✅ Atur CPU Core
+- ✅ Simpan pengaturan otomatis
+- ✅ Support Android/Termux & Linux
+- ✅ Menggunakan Python venv
 
-  ---
+🚀 Termux
 
-💻 Untuk VPS / Server Linux (Debian/Ubuntu)
-# 1. Perbarui paket sistem
-sudo apt update && sudo apt upgrade -y
+pkg update && pkg upgrade -y
+pkg install python git libjansson -y
 
-# 2. Pasang alat pendukung yang dibutuhkan
-sudo apt install python3 python3-venv git libjansson-dev -y
-
-# 3. Atur alias python (opsional)
-alias python=python3
-
-# 4. Unduh kode dari repositori ini
 git clone https://github.com/andiprasetyooo923/verus-mining-andiencoe.git
+cd verus-mining-andiencoe/VERUSPHYTHON
 
-# 5. Masuk ke folder program
-cd verus-mining-andiencoe/VERUSPYTHON
-
-# 6. Buat lingkungan virtual (venv) - CUKUP SEKALI SAJA
-python3 -m venv venv
-
-# 7. Aktifkan venv - WAJIB dilakukan setiap kali mau menjalankan program
+python -m venv venv
 source venv/bin/activate
-
-# ✅ Jika di baris awal muncul tulisan (venv), berarti sudah siap!
-
-# 8. Jalankan alat tambang
 python vrs_miner.py
 
+💻 VPS / Linux
+
+sudo apt update
+sudo apt install python3 python3-venv git libjansson-dev -y
+
+git clone https://github.com/andiprasetyooo923/verus-mining-andiencoe.git
+cd verus-mining-andiencoe/VERUSPHYTHON
+
+python3 -m venv venv
+source venv/bin/activate
+python vrs_miner.py
+
+🔄 Jalankan Lagi
+
+cd ~/verus-mining-andiencoe/VERUSPHYTHON
+source venv/bin/activate
+python vrs_miner.py
+
+📚 Sumber Program
+
+Program mining inti menggunakan ccminer buatan pengembang asli & zikyu7.
+
+Proyek ini hanya memudahkan cara penggunaan. Semua hak cipta tetap milik pembuat aslinya.
+
 ---
 
-  
+Selamat menambang! 🚀⛏️
+
+— ANDI ENCOE
