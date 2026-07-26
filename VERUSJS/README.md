@@ -1,77 +1,87 @@
-⛏️ VERUSJS - Versi JavaScript Mining Verus Coin
+⛏️ VERUSJS - JavaScript Verus Coin Mining
 
-✅ Dibuat oleh: ANDI ENCOE
+✅ Created by: ANDI ENCOE
 ✅ Telegram: t.me/AndiEncoe
 
-Script mining VRSC berbasis Node.js untuk HP Android menggunakan Termux, dengan tampilan menarik dan mudah digunakan untuk pemula maupun pengguna berpengalaman.
+A Node.js-based Verus Coin (VRSC) mining script for Android phones using Termux, featuring an attractive interface and easy-to-use controls for both beginners and experienced users.
 
 ---
 
-🔥 KEUNGGULAN
+🔥 FEATURES
 
-✅ Tampilan berwarna dan tulisan besar
-✅ Simpan pengaturan otomatis (tidak perlu isi ulang)
-✅ Pilih pool Luckpool / Vipor
-✅ Atur jumlah inti CPU sesuai kemampuan HP
-✅ Otomatis sambung ulang jika koneksi terputus
-✅ Khusus HP Android menggunakan Termux
+✅ Colorful interface with large text
+✅ Automatically saves settings — no need to enter them again
+✅ Choose between Luckpool / Vipor
+✅ Adjust the number of CPU cores according to your phone's capabilities
+✅ Automatically reconnects if the connection is lost
+✅ Designed for Android phones using Termux
 
 ---
 
-🚀 CARA PASANG & JALANKAN LENGKAP
+🚀 COMPLETE INSTALLATION & USAGE
 
 📱 TERMUX ANDROID
 
-⚡ CARA CEPAT — SATU BARIS LANGSUNG JALAN
+⚡ QUICK INSTALL — RUN WITH ONE COMMAND
 
-Salin semua perintah berikut, lalu tempel langsung di Termux:
+Copy and paste the following command directly into Termux:
 
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git && cd verus-mining-andiencoe/VERUSJS && pkg update && pkg upgrade -y && pkg install nodejs git libjansson -y && npm install && node index.js
 
-🛠️ CARA MANUAL
+---
 
-Jika ingin menjalankan satu per satu:
+🛠️ MANUAL INSTALLATION
+
+If you prefer to run the commands one by one:
 
 # Update Termux
+
 pkg update && pkg upgrade -y
 
-# Install kebutuhan
+# Install required packages
+
 pkg install nodejs git libjansson -y
 
-# Clone repository
+# Clone the repository
+
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
-# Masuk ke folder VERUSJS
+# Enter the VERUSJS folder
+
 cd verus-mining-andiencoe/VERUSJS
 
-# Install dependency
+# Install dependencies
+
 npm install
 
-# Jalankan
+# Run VERUSJS
+
 node index.js
 
-🔄 MENJALANKAN KEMBALI
+---
 
-Jika repository sudah pernah diunduh:
+🔄 RUNNING AGAIN
+
+If the repository has already been downloaded and the dependencies have been installed:
 
 cd ~/verus-mining-andiencoe/VERUSJS
 node index.js
 
 ---
 
-📚 SUMBER & UCAPAN TERIMA KASIH
+📚 SOURCE & ACKNOWLEDGEMENTS
 
-Program mining inti: ccminer Verus
+Core mining program: ccminer Verus
 
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- zikyu7 — pengembangan untuk Android/ARM
+- zikyu7 — Android/ARM development
 
-🔗 https://github.com/zikyu7/ccminer
+🔗 Source: https://github.com/zikyu7/ccminer
 
-🙏 Terima kasih kepada zikyu7 dan seluruh pengembang serta kontributor asli.
+🙏 Special thanks to zikyu7 and all original developers and contributors.
 
-Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit program pihak ketiga tetap menjadi milik pembuat aslinya dan mengikuti lisensi masing-masing.
+This project only simplifies the usage and configuration process. All copyrights and credits for third-party programs remain with their original authors and are subject to their respective licenses.
