@@ -1,62 +1,66 @@
 ⛏️ VERUS MINING ANDI ENCOE
 
-Kumpulan alat mining Verus Coin (VRSC) yang dapat dijalankan di HP Android menggunakan Termux!
+A collection of Verus Coin (VRSC) mining tools that can be run on Android phones using Termux!
 
-✅ Dibuat oleh: ANDI ENCOE
+✅ Created by: ANDI ENCOE
 ✅ Telegram: t.me/AndiENCOE
-✅ Lisensi: MIT License untuk kode asli ANDI ENCOE
+✅ License: MIT License for original code created by ANDI ENCOE
 
 ---
 
-📂 PILIH VERSI YANG KAMU BUTUHKAN
+📂 CHOOSE THE VERSION YOU NEED
 
-Klik nama folder untuk melihat petunjuk lengkapnya:
+Click the folder name to view the complete instructions:
 
-Folder| Bahasa| Kelebihan Utama| Kebutuhan
-📂 VERUSC| Bahasa C| Paling ringan & cepat, hemat daya| Compiler C
-📂 VERUSJS| JavaScript| Tampilan menarik & berwarna| Node.js + npm
-📂 VERUSPHP| PHP| Mudah dipasang & dikonfigurasi| PHP
-📂 VERUSPHYTHON| Python| Simple & mudah digunakan| Python 3
+Folder| Language| Main Advantage| Requirements
+📂 VERUSC| C| Lightweight and fast, low power consumption| C Compiler
+📂 VERUSJS| JavaScript| Attractive and colorful interface| Node.js + npm
+📂 VERUSPHP| PHP| Easy to install and configure| PHP
+📂 VERUSPHYTHON| Python| Simple and easy to use| Python 3
 
-✅ SEMUA VERSI DIBUAT UNTUK DIJALANKAN DI HP ANDROID MENGGUNAKAN TERMUX!
+✅ ALL VERSIONS ARE DESIGNED TO RUN ON ANDROID PHONES USING TERMUX!
 
 ---
 
-🚀 CARA PASANG & JALANKAN
+🚀 INSTALLATION & USAGE
 
-📱 HP ANDROID (TERMUX)
+📱 ANDROID PHONE (TERMUX)
 
-# Unduh repository
-https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+# Clone the repository
 
-# Masuk ke folder repository
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+
+# Enter the repository folder
+
 cd verus-mining-andiencoe
 
-# Pilih folder yang diinginkan
+# Choose the version you want
+
 cd VERUSPHP
 
-# Jalankan
+# Run
+
 php bot.php
 
-«⚠️ Setiap versi memiliki kebutuhan dan cara menjalankan yang berbeda. Silakan masuk ke folder masing-masing untuk melihat petunjuk lengkapnya.»
+⚠️ Each version has different requirements and usage instructions. Please enter each folder to view the complete instructions.
 
 ---
 
-📚 SUMBER & UCAPAN TERIMA KASIH
+📚 SOURCES & ACKNOWLEDGEMENTS
 
-Program mining inti: ccminer Verus
+Core mining program: ccminer Verus
 
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- zikyu7 — pengembangan untuk Android/ARM
+- zikyu7 — Android/ARM development
 
 🔗 https://github.com/zikyu7/ccminer
 
-🙏 Terima kasih kepada zikyu7 dan seluruh pengembang serta kontributor asli.
+🙏 Special thanks to zikyu7 and all original developers and contributors.
 
-Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit program pihak ketiga tetap menjadi milik pengembang aslinya dan mengikuti lisensi masing-masing.
+This project only simplifies the usage and configuration process. All copyrights and credits for third-party programs remain with their original developers and are subject to their respective licenses.
 
-MIT License yang terdapat pada repository ini hanya berlaku untuk kode dan materi asli yang dibuat oleh ANDI ENCOE.
+The MIT License included in this repository applies only to the original code and materials created by ANDI ENCOE.
