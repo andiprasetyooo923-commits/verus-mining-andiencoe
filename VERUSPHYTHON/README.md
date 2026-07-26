@@ -1,76 +1,85 @@
-⛏️ TAMBANG VERUS PYTHON
+⛏️ VERUS PYTHON MINER
 
-Alat mining VRSC otomatis, ringan, dan mudah dipakai di HP Android menggunakan Termux.
+An automatic, lightweight, and easy-to-use Verus Coin (VRSC) mining tool for Android phones using Termux.
 
-Oleh: ANDI ENCOE ✅
+Created by: ANDI ENCOE ✅
 Telegram: t.me/AndiEncoe
 
 ---
 
-✨ FITUR
+✨ FEATURES
 
-- ✅ Luckpool & Vipor
-- ✅ Atur CPU Core
-- ✅ Simpan pengaturan otomatis
-- ✅ Khusus Android/Termux
-- ✅ Bisa dijalankan langsung dengan Python
-- ✅ Tidak wajib menggunakan venv
+- ✅ Supports Luckpool & Vipor
+- ✅ Adjustable CPU core usage
+- ✅ Automatically saves settings
+- ✅ Designed for Android / Termux
+- ✅ Can be run directly with Python
+- ✅ Virtual environment ("venv") is not required
 
 ---
 
-🚀 CARA PASANG & JALANKAN
+🚀 INSTALLATION & USAGE
 
 📱 TERMUX ANDROID
 
 # Update Termux
+
 pkg update && pkg upgrade -y
 
-# Install kebutuhan
+# Install requirements
+
 pkg install python git libjansson -y
 
-# Clone repository
+# Clone the repository
+
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
-# Masuk ke folder
+# Enter the folder
+
 cd verus-mining-andiencoe/VERUSPHYTHON
 
-# Jalankan langsung
+# Run directly
+
 python vrs_miner.py
 
-⚡ CARA CEPAT — SATU BARIS
+---
+
+⚡ QUICK INSTALL — ONE COMMAND
+
+Copy and paste the following command into Termux:
 
 pkg update && pkg upgrade -y && pkg install python git libjansson -y && git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git && cd verus-mining-andiencoe/VERUSPHYTHON && python vrs_miner.py
 
 ---
 
-🔄 JALANKAN LAGI
+🔄 RUN AGAIN
 
-Jika repository sudah pernah diunduh:
+If the repository has already been downloaded:
 
 cd ~/verus-mining-andiencoe/VERUSPHYTHON
 python vrs_miner.py
 
 ---
 
-📚 SUMBER & UCAPAN TERIMA KASIH
+📚 SOURCE & ACKNOWLEDGEMENTS
 
-Program mining inti: ccminer Verus
+Core mining program: ccminer Verus
 
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- zikyu7 — pengembangan untuk Android/ARM
+- zikyu7 — Android/ARM development
 
 🔗 https://github.com/zikyu7/ccminer
 
-🙏 Terima kasih kepada zikyu7 dan seluruh pengembang serta kontributor asli.
+🙏 Special thanks to zikyu7 and all original developers and contributors.
 
-Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit program pihak ketiga tetap menjadi milik pembuat aslinya dan mengikuti lisensi masing-masing.
+This project only simplifies the usage and configuration process. All copyrights and credits for third-party programs remain with their original authors and are subject to their respective licenses.
 
 ---
 
-⛏️ SELAMAT MENAMBANG!
+⛏️ HAPPY MINING!
 
 — ANDI ENCOE
