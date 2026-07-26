@@ -76,13 +76,17 @@ accepted extra nonce subscription
 
 📚 Program Source
 
-The mining core uses Hellminer.
+The mining core used by VERUSVPS is Hellminer / hminer.
+
+Original source repository:
+
+🔗 https://github.com/hellcatz/hminer
 
 Special thanks to the original Hellminer developers and all contributors involved in the development of the mining software.
 
-This project is intended to make Verus mining easier to run on VPS / Linux servers.
+This project only simplifies the usage, configuration, and setup process for Verus mining on VPS / Linux servers.
 
-Copyright and licenses for third-party components remain with their respective authors and projects.
+Copyrights, credits, and licenses for third-party components remain with their respective authors and projects.
 
 ---
 
@@ -92,4 +96,4 @@ ANDI ENCOE
 
 Telegram: https://t.me/AndiEncoe
 
-Happy Mining! 🚀⛏️
+⛏️ Happy Mining! 🚀
