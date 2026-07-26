@@ -21,11 +21,21 @@ Folder| Bahasa| Kelebihan Utama| Kebutuhan
 «✅ SEMUA VERSI: Kompatibel ARM64 (HP) & x86_64 (VPS)!»
 
 ---
-
 📚 SUMBER & UCAPAN TERIMA KASIH
 
-- Program mining inti: "ccminer" asli, dimodifikasi khusus Android & Linux oleh zikyu7
-- Proyek ini menyederhanakan pemakaian, hak cipta tetap milik pembuat asli.
+Program mining inti: **ccminer Verus**
+- Christian Buchner
+- Christian H. (Chris84)
+- Tanguy Pruvot
+- Darktron
+- Oink70
+- **zikyu7** — pengembangan untuk Android/ARM
+
+🔗 https://github.com/zikyu7/ccminer
+
+🙏 Terima kasih kepada **zikyu7** dan seluruh pengembang serta kontributor asli.
+
+Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit tetap milik pembuat aslinya.
 
 ---
 
