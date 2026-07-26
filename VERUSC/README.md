@@ -1,43 +1,68 @@
-# 📦 VERUSC - Mining Verus Coin untuk Termux Android
-✅ **Dibuat oleh**: ANDI ENCOE
-✅ **Telegram**: t.me/AndiEncoe
+📦 VERUSC - Mining Verus Coin untuk Termux Android
 
-Alat mining VRSC otomatis, ringan dan mudah dipakai di HP Android.
+✅ Dibuat oleh: ANDI ENCOE
+✅ Telegram: t.me/AndiEncoe
+
+Alat mining Verus Coin (VRSC) yang ringan dan mudah digunakan di HP Android melalui Termux.
 
 ---
 
-🔗 https://github.com/zikyu7/ccminer
+🚀 CARA PAKAI LANGSUNG
 
-🙏 Terima kasih kepada **zikyu7** dan seluruh pengembang serta kontributor asli.
+Salin perintah berikut satu per satu di Termux:
 
-Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit tetap milik pembuat aslinya.
----
-
-## 🚀 CARA PAKAI LANGSUNG
-Salin perintah ini satu per satu di Termux:
-
-```bash
-# 1. Perbarui & pasang kebutuhan
+# 1. Perbarui paket Termux
 pkg update && pkg upgrade -y
-pkg install gcc libjansson git -y
 
-# 2. Ambil file dari repositori ini
+# 2. Pasang kebutuhan
+pkg install libjansson git -y
+
+# 3. Ambil repository
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
-# 3. Masuk ke folder program
+# 4. Masuk ke folder VERUSC
 cd verus-mining-andiencoe/VERUSC
 
-# 4. Kompilasi & jalankan
-gcc verus.c -o verus
+# 5. Berikan izin menjalankan binary
+chmod +x verus
+
+# 6. Jalankan VERUSC
+./verus
+
+⚡ Jika repository sudah didownload
+
+Cukup:
+
+cd verus-mining-andiencoe/VERUSC
+chmod +x verus
 ./verus
 
 
 📚 SUMBER & UCAPAN TERIMA KASIH
 
-Program mining inti: **ccminer Verus**
+Program mining ini menggunakan pengembangan dari ccminer Verus dan kontribusi para pengembang serta kontributor aslinya.
+
+🔗 Sumber: https://github.com/zikyu7/ccminer
+
+Terima kasih kepada:
+
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- **zikyu7** — pengembangan untuk Android/ARM
+- zikyu7 — pengembangan untuk Android/ARM
+- Seluruh pengembang dan kontributor ccminer
+
+Proyek VERUSC ini dibuat untuk mempermudah penggunaan dan konfigurasi mining Verus di Termux Android.
+
+Seluruh hak cipta, lisensi, dan kredit terhadap kode sumber asli tetap menjadi milik masing-masing pembuat dan kontributornya.
+
+---
+
+⚠️ CATATAN
+
+Gunakan program ini sesuai dengan lisensi dan ketentuan dari proyek sumber yang digunakan.
+
+VERUSC — ANDI ENCOE
+⛏️ Mining Verus Coin di Android/Termux
