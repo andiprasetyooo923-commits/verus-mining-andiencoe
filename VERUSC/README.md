@@ -1,71 +1,79 @@
-📦 VERUSC - Mining Verus Coin untuk Termux Android
+📦 VERUSC - Verus Coin Mining for Termux Android
 
-✅ Dibuat oleh: ANDI ENCOE
+✅ Created by: ANDI ENCOE
 ✅ Telegram: t.me/AndiEncoe
 
-Alat mining Verus Coin (VRSC) yang ringan dan mudah digunakan di HP Android melalui Termux.
+A lightweight and easy-to-use Verus Coin (VRSC) mining tool for Android phones running Termux.
 
 ---
 
-🚀 CARA PAKAI LANGSUNG
+🚀 QUICK START
 
-Salin perintah berikut satu per satu di Termux:
+Run the following commands one by one in Termux:
 
-# 1. Perbarui paket Termux
+1. Update Termux packages
+
 pkg update && pkg upgrade -y
 
-# 2. Pasang kebutuhan
+2. Install required packages
+
 pkg install libjansson git -y
 
-# 3. Ambil repository
+3. Clone the repository
+
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
-# 4. Masuk ke folder VERUSC
-cd verus-mining-andiencoe/VERUSC
-
-# 5. Berikan izin menjalankan binary
-chmod +x verus
-
-# 6. Jalankan VERUSC
-./verus
-
-⚡ Jika repository sudah didownload
-
-Cukup:
+4. Enter the VERUSC folder
 
 cd verus-mining-andiencoe/VERUSC
-chmod +x verus
-./verus
 
-«Catatan: File "verus" sudah berupa binary yang siap dijalankan di Termux Android, sehingga pengguna tidak perlu melakukan kompilasi ulang.»
+5. Give the binary execution permission
+
+chmod +x verus
+
+6. Run VERUSC
+
+./verus
 
 ---
 
-📚 SUMBER & UCAPAN TERIMA KASIH
+⚡ IF THE REPOSITORY IS ALREADY DOWNLOADED
 
-Program mining ini menggunakan pengembangan dari ccminer Verus dan kontribusi para pengembang serta kontributor aslinya.
+Simply run:
 
-🔗 Sumber: https://github.com/zikyu7/ccminer
+cd verus-mining-andiencoe/VERUSC
+chmod +x verus
+./verus
 
-Terima kasih kepada:
+«Note: The "verus" file is already provided as a precompiled binary ready to run on Termux Android. Users do not need to compile it again.»
+
+---
+
+📚 SOURCE & ACKNOWLEDGEMENTS
+
+This mining program is based on development from ccminer Verus and contributions from its original developers and contributors.
+
+🔗 Source: https://github.com/zikyu7/ccminer
+
+Special Thanks To:
 
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- zikyu7 — pengembangan untuk Android/ARM
-- Seluruh pengembang dan kontributor ccminer
+- zikyu7 — Android/ARM development
+- All ccminer developers and contributors
 
-Proyek VERUSC ini dibuat untuk mempermudah penggunaan dan konfigurasi mining Verus di Termux Android.
+The VERUSC project was created to simplify the usage and configuration of Verus mining on Termux Android.
 
-Seluruh hak cipta, lisensi, dan kredit terhadap kode sumber asli tetap menjadi milik masing-masing pembuat dan kontributornya.
+All copyrights, licenses, and credits for the original source code remain with their respective authors and contributors.
 
 ---
 
-⚠️ CATATAN
+⚠️ DISCLAIMER
 
-Gunakan program ini sesuai dengan lisensi dan ketentuan dari proyek sumber yang digunakan.
+Please use this program in accordance with the licenses and terms of the source projects used.
 
 VERUSC — ANDI ENCOE
-⛏️ Mining Verus Coin di Android/Termux
+⛏️ Verus Coin Mining on Android/Termux
