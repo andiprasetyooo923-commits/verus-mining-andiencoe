@@ -1,66 +1,85 @@
-# 🚀 VERUSPHP · Bot Mining Verus Coin
-**Bot Mining Verus Khusus Android / Termux · Versi VRSPHP**
+🚀 VERUSPHP · Verus Coin Mining Bot
+
+Verus Mining Bot for Android / Termux · VRSPHP Version
 
 ---
 
-## 📌 INFORMASI PEMBUAT
-- **Nama**: ANDI ENCOE
-- **Telegram**: [t.me/AndiENCOE](https://t.me/AndiENCOE)
-- **Versi**: VRSPHP
-- **Bahasa**: PHP
----
-📚 SUMBER & UCAPAN TERIMA KASIH
+📌 DEVELOPER INFORMATION
 
-Program mining inti: **ccminer Verus**
+- Name: ANDI ENCOE
+- Telegram: "t.me/AndiENCOE" (https://t.me/AndiENCOE)
+- Version: VRSPHP
+- Language: PHP
+
+---
+
+📚 SOURCE & ACKNOWLEDGEMENTS
+
+Core mining program: ccminer Verus
+
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- **zikyu7** — pengembangan untuk Android/ARM
+- zikyu7 — Android/ARM development
 
 🔗 https://github.com/zikyu7/ccminer
 
-🙏 Terima kasih kepada **zikyu7** dan seluruh pengembang serta kontributor asli.
+🙏 Special thanks to zikyu7 and all original developers and contributors.
 
-Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit tetap milik pembuat aslinya.
-
-
-## ✨ FITUR UTAMA
-✅ Otomatis unduh & pasang `ccminer` dari repo resmi
-✅ Dukung Pool **Luckpool Asia** & **Vipor Asia** (paling stabil)
-✅ Otomatis deteksi jumlah inti CPU perangkat
-✅ Bisa pilih jumlah inti yang ingin dipakai
-✅ Simpan konfigurasi otomatis, tidak perlu input ulang
-✅ Otomatis sambung ulang jika koneksi terputus
-✅ Tampilan sederhana & mudah digunakan
-✅ Siap dijalankan langsung di Termux
+This project only simplifies the usage and configuration process. All copyrights and credits remain with their respective original authors.
 
 ---
 
-## 📋 SYARAT MINIMUM
-- HP Android minimal RAM 2GB
-- Aplikasi **Termux** terbaru
-- Koneksi internet stabil
-- Izin **Penghemat Baterai** dimatikan untuk Termux
+✨ MAIN FEATURES
+
+✅ Automatically downloads and installs "ccminer" from the official repository
+✅ Supports Luckpool Asia & Vipor Asia pools for stable connections
+✅ Automatically detects the device's available CPU cores
+✅ Allows you to choose how many CPU cores to use
+✅ Automatically saves configuration settings — no need to enter them again
+✅ Automatically reconnects when the connection is lost
+✅ Simple and easy-to-use interface
+✅ Ready to run directly on Termux
 
 ---
 
-## 📥 CARA INSTALASI & MENJALANKAN
-Buka Termux, jalankan perintah satu per satu:
+📋 MINIMUM REQUIREMENTS
 
-```bash
-# 1. Perbarui sistem paket
+- Android phone with at least 2 GB RAM
+- Latest version of Termux
+- Stable internet connection
+- Disable Battery Saver / Battery Optimization for Termux
+
+---
+
+📥 INSTALLATION & USAGE
+
+Open Termux and run the following commands one by one:
+
+# 1. Update Termux packages
 yes | pkg update && pkg upgrade -y
 
-# 2. Pasang paket yang dibutuhkan
+# 2. Install required packages
 yes | pkg install libjansson git php termux-tools -y
 
-# 3. Unduh repositori ini (LINK SUDAH SESUAI REPO KAMU)
+# 3. Clone this repository
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
-# 4. Masuk ke folder VERUSPHP
+# 4. Enter the VERUSPHP folder
 cd verus-mining-andiencoe/VERUSPHP
 
-# 5. Jalankan bot mining
+# 5. Run the mining bot
 php bot.php
+
+---
+
+⚠️ DISCLAIMER
+
+Please use this program in accordance with the licenses and terms of the source projects used.
+
+All third-party software, source code, copyrights, and licenses remain the property of their respective developers and contributors.
+
+VERUSPHP — ANDI ENCOE
+⛏️ Verus Coin Mining on Android / Termux
