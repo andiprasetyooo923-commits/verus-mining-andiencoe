@@ -53,9 +53,3 @@ cd VERUSPHP
 # Pasang paket & jalankan
 php bot.php
 
-🐍 Contoh VERUSPHYTHON
-
-cd VERUSPHYTHON
-python -m venv venv
-source venv/bin/activate
-python vrs_miner.py
