@@ -19,13 +19,8 @@ pkg update && pkg upgrade -y
 pkg install python git libjansson -y
 
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+
 cd verus-mining-andiencoe/VERUSPHYTHON
-
-python -m venv venv
-
-source venv/bin/activate
-
-. venv/bin/activate
 
 python vrs_miner.py
 
