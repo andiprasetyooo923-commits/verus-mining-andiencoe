@@ -18,7 +18,7 @@ Telegram: "t.me/AndiEncoe" (https://t.me/AndiEncoe)
 pkg update && pkg upgrade -y
 pkg install python git libjansson -y
 
-git clone https://github.com/andiprasetyooo923/verus-mining-andiencoe.git
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 cd verus-mining-andiencoe/VERUSPHYTHON
 
 python -m venv venv
@@ -30,7 +30,7 @@ python vrs_miner.py
 sudo apt update
 sudo apt install python3 python3-venv git libjansson-dev -y
 
-git clone https://github.com/andiprasetyooo923/verus-mining-andiencoe.git
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 cd verus-mining-andiencoe/VERUSPHYTHON
 
 python3 -m venv venv
