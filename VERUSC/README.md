@@ -5,13 +5,21 @@
 Alat mining VRSC otomatis, ringan dan mudah dipakai di HP Android.
 
 ---
+📚 SUMBER & UCAPAN TERIMA KASIH
 
-##📚 SUMBER PROGRAM
- 
-- Program mining inti: ccminer buatan pengembang asli & zikyu7
+Program mining inti: **ccminer Verus**
+- Christian Buchner
+- Christian H. (Chris84)
+- Tanguy Pruvot
+- Darktron
+- Oink70
+- **zikyu7** — pengembangan untuk Android/ARM
 
-- Proyek ini hanya memudahkan cara pakai, semua hak cipta tetap milik pembuat aslinya.
+🔗 https://github.com/zikyu7/ccminer
 
+🙏 Terima kasih kepada **zikyu7** dan seluruh pengembang serta kontributor asli.
+
+Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit tetap milik pembuat aslinya.
 ---
 
 ## 🚀 CARA PAKAI LANGSUNG
