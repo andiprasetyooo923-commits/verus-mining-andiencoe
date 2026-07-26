@@ -15,12 +15,21 @@ Script mining VRSC berbasis Node.js, tampilan menarik, mudah dipakai untuk pemul
 ✅ Bisa dipakai di Termux Android & VPS Linux
 
 ---
-##📚 SUMBER PROGRAM
- 
-- Program mining inti: ccminer buatan pengembang asli & zikyu7
+📚 SUMBER & UCAPAN TERIMA KASIH
 
-- Proyek ini hanya memudahkan cara pakai, semua hak cipta tetap milik pembuat aslinya.
+Program mining inti: **ccminer Verus**
+- Christian Buchner
+- Christian H. (Chris84)
+- Tanguy Pruvot
+- Darktron
+- Oink70
+- **zikyu7** — pengembangan untuk Android/ARM
 
+🔗 https://github.com/zikyu7/ccminer
+
+🙏 Terima kasih kepada **zikyu7** dan seluruh pengembang serta kontributor asli.
+
+Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit tetap milik pembuat aslinya.
 ---
 
 
