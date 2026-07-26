@@ -27,7 +27,7 @@ Folder| Bahasa| Kelebihan Utama| Kebutuhan
 📱 HP ANDROID (TERMUX)
 
 # Unduh repository
-git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
 # Masuk ke folder repository
 cd verus-mining-andiencoe
