@@ -23,6 +23,7 @@ cd verus-mining-andiencoe/VERUSPHYTHON
 
 python -m venv venv
 source venv/bin/activate
+
 . venv/bin/activate
 python vrs_miner.py
 
@@ -36,12 +37,15 @@ cd verus-mining-andiencoe/VERUSPHYTHON
 
 python3 -m venv venv
 source venv/bin/activate
+
 python vrs_miner.py
 
 🔄 Jalankan Lagi
 
 cd ~/verus-mining-andiencoe/VERUSPHYTHON
 source venv/bin/activate
+
+. venv/bin/activate
 python vrs_miner.py
 
 📚 Sumber Program
