@@ -46,6 +46,8 @@ cd ~/verus-mining-andiencoe/VERUSPHYTHON
 source venv/bin/activate
 
 python vrs_miner.py
+
+
 📚 SUMBER & UCAPAN TERIMA KASIH
 
 Program mining inti: **ccminer Verus**
