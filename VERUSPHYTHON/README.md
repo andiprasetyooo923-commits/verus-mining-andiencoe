@@ -46,11 +46,21 @@ cd ~/verus-mining-andiencoe/VERUSPHYTHON
 source venv/bin/activate
 
 python vrs_miner.py
+📚 SUMBER & UCAPAN TERIMA KASIH
 
-📚 Sumber Program
+Program mining inti: **ccminer Verus**
+- Christian Buchner
+- Christian H. (Chris84)
+- Tanguy Pruvot
+- Darktron
+- Oink70
+- **zikyu7** — pengembangan untuk Android/ARM
 
-Program mining inti menggunakan ccminer buatan pengembang asli & zikyu7.
+🔗 https://github.com/zikyu7/ccminer
 
+🙏 Terima kasih kepada **zikyu7** dan seluruh pengembang serta kontributor asli.
+
+Proyek ini hanya mempermudah penggunaan dan konfigurasi. Seluruh hak cipta dan kredit tetap milik pembuat aslinya.
 Proyek ini hanya memudahkan cara penggunaan. Semua hak cipta tetap milik pembuat aslinya.
 
 ---
