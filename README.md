@@ -23,6 +23,22 @@ Klik nama folder untuk melihat petunjuk lengkapnya:
 
 ---
 
+
+## 🚀 CARA PASANG & JALANKAN
+
+### 📱 HP ANDROID (TERMUX)
+
+```bash
+# Unduh repository
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+cd verus-mining-andiencoe
+
+# Masuk ke folder yang diinginkan
+cd VERUSPHP
+
+# Jalankan
+php bot.php
+
 ## 📚 SUMBER & UCAPAN TERIMA KASIH
 
 Program mining inti: **ccminer Verus**
@@ -42,19 +58,3 @@ Proyek ini hanya mempermudah penggunaan dan konfigurasi. **Seluruh hak cipta dan
 
 **MIT License yang terdapat pada repository ini hanya berlaku untuk kode dan materi asli yang dibuat oleh ANDI ENCOE.**
 
----
-
-## 🚀 CARA PASANG & JALANKAN
-
-### 📱 HP ANDROID (TERMUX)
-
-```bash
-# Unduh repository
-git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
-cd verus-mining-andiencoe
-
-# Masuk ke folder yang diinginkan
-cd VERUSPHP
-
-# Jalankan
-php bot.php
