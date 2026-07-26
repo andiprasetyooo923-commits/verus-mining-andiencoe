@@ -23,6 +23,7 @@ cd verus-mining-andiencoe/VERUSPHYTHON
 
 python -m venv venv
 source venv/bin/activate
+. venv/bin/activate
 python vrs_miner.py
 
 💻 VPS / Linux
