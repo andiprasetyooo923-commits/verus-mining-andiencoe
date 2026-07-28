@@ -71,6 +71,15 @@ All copyrights, licenses, and credits for the original source code remain with t
 
 ---
 
+
+💰 SUPPORT THE PROJECT
+If you would like to support the development and maintenance of VERUSC / VERUS MINING ANDI ENCOE, you can send VRSC to the following wallet:
+RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
+🙏 Thank you for your support!
+
+
+---
+
 ⚠️ DISCLAIMER
 
 Please use this program in accordance with the licenses and terms of the source projects used.
