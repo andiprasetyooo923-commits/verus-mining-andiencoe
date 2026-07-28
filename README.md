@@ -1,39 +1,49 @@
-⛏️ VERUS MINING ANDI ENCOE
+# ⛏️ VERUS MINING ANDI ENCOE
 
-A collection of Verus Coin (VRSC) mining tools for Android / Termux and Linux VPS.
+A collection of **Verus Coin (VRSC)** mining tools for **Android / Termux** and **Linux VPS**.
 
-✅ Created by: ANDI ENCOE
-✅ Telegram: t.me/AndiENCOE
-✅ License: MIT License for original code
-
----
-
-📂 VERSIONS
-
-- 📱 VERUSC — C / Android / Termux
-- 📱 VERUSJS — JavaScript / Android / Termux
-- 📱 VERUSPHP — PHP / Android / Termux
-- 📱 VERUSPHYTHON — Python / Android / Termux
-- 📱 VERUSSH / COEVRS — Bash / Android / Termux
-- 🖥️ VERUSVPS — C / Binary / Linux VPS
+✅ **Created by:** ANDI ENCOE  
+✅ **Telegram:** t.me/AndiENCOE  
+✅ **License:** MIT License (applies only to the original code created by ANDI ENCOE)
 
 ---
 
-🚀 INSTALLATION
+## 📂 AVAILABLE VERSIONS
+
+| Version | Platform | Language |
+|---------|----------|----------|
+| 📱 **VERUSC** | Android / Termux | C |
+| 📱 **VERUSJS** | Android / Termux | JavaScript (Node.js) |
+| 📱 **VERUSPHP** | Android / Termux | PHP |
+| 📱 **VERUSPHYTHON** | Android / Termux | Python |
+| 📱 **VERUSSH / COEVRS** | Android / Termux | Bash |
+| 🖥️ **VERUSVPS** | Linux VPS | Precompiled Binary (x86-64) |
+
+Each folder includes its own **README.md** containing installation and usage instructions.
+
+---
+
+# 🚀 INSTALLATION
 
 Clone the repository:
 
-git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git &&
+```bash
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+```
+
+Enter the project directory:
+
+```bash
 cd verus-mining-andiencoe
+```
 
-Choose the folder you need.
-
-📌 Each folder contains its own "README.md" with installation and usage instructions.
+Choose the version that best fits your device or operating system.
 
 ---
 
-📁 PROJECT STRUCTURE
+## 📁 PROJECT STRUCTURE
 
+```text
 verus-mining-andiencoe/
 ├── VERUSC/
 ├── VERUSJS/
@@ -42,24 +52,44 @@ verus-mining-andiencoe/
 ├── VERUSSH/
 ├── VERUSVPS/
 └── README.md
+```
 
 ---
 
-⚠️ DISCLAIMER
+## 📚 DOCUMENTATION
 
-Third-party mining software remains the property of its respective developers and is subject to their own licenses.
+Each version has its own dedicated documentation.
 
-The MIT License in this repository applies only to the original code and materials created by ANDI ENCOE.
+| Folder | Description |
+|---------|-------------|
+| **VERUSC** | C-based Verus miner for Android / Termux |
+| **VERUSJS** | JavaScript (Node.js) Verus miner |
+| **VERUSPHP** | PHP-based Verus mining bot |
+| **VERUSPHYTHON** | Python-based Verus miner |
+| **VERUSSH / COEVRS** | Bash launcher for VerusHash mining |
+| **VERUSVPS** | Linux VPS Verus miner (Hellminer) |
 
-Mining performance may vary depending on the device, CPU, temperature, network, and pool conditions.
+Simply open the corresponding folder and follow the instructions in its **README.md**.
 
 ---
 
-🙏 SPECIAL THANKS
+## ⚠️ DISCLAIMER
 
-Special thanks to all original developers and contributors whose work helped make these mining tools possible.
+Please use this project in accordance with the licenses and terms of the source projects used.
 
-Original developers and contributors include:
+All third-party mining software, source code, copyrights, and licenses remain the property of their respective developers and contributors.
+
+The MIT License included in this repository applies **only** to the original code and materials created by **ANDI ENCOE**.
+
+Mining performance may vary depending on the device, CPU, operating system, temperature, network connection, and mining pool conditions.
+
+---
+
+## 🙏 SPECIAL THANKS
+
+This project would not be possible without the work of the original developers and contributors.
+
+Special thanks to:
 
 - Christian Buchner
 - Christian H. (Chris84)
@@ -68,25 +98,32 @@ Original developers and contributors include:
 - Oink70
 - zikyu7 — Android / ARM development
 - monkins1010 — ARM ccminer
-- Hellminer / hminer developers and contributors
+- Hellminer (hminer) developers and contributors
 
-❤️ Thank you to all original developers and contributors.
+❤️ Thank you to all original developers and contributors for their outstanding work.
 
 ---
 
-❤️ SUPPORT THE PROJECT
+## ❤️ SUPPORT THE PROJECT
 
-If you would like to support the development and maintenance of VERUS MINING ANDI ENCOE, you can send VRSC to:
+If you would like to support the development and maintenance of **VERUS MINING ANDI ENCOE**, you can send **VRSC** to:
 
+```text
 RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
+```
 
-Created by: ANDI ENCOE
-Telegram: t.me/AndiENCOE
-
-🙏 Thank you for your support!
+Thank you for your support! 🙏
 
 ---
 
-⛏️ VERUS MINING ANDI ENCOE
+## 👤 CREATOR
 
-Happy Mining! 🚀
+**ANDI ENCOE**
+
+**Telegram:** t.me/AndiENCOE
+
+# ⛏️ VERUS MINING ANDI ENCOE
+
+**Verus Coin (VRSC) Mining Tools for Android / Termux & Linux VPS**
+
+⛏️ **Happy Mining! 🚀**
