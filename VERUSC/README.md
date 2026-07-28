@@ -78,7 +78,9 @@ This stops the running mining process.
 
 If you no longer want VERUSC to automatically start when opening a new Termux shell, run:
 
-sed -i '/cd ~\/verus-mining-andiencoe\/VERUSC && .\/verus/d' ~/.bashrc
+nano ~/.bashrc
+delete
+cd ~/verus-mining-andiencoe/VERUSC && ./verus
 
 
 Then close and reopen Termux.
