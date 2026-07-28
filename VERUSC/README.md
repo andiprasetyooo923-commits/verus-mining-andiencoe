@@ -41,11 +41,57 @@ chmod +x verus
 
 Simply run:
 
-cd verus-mining-andiencoe/VERUSC
+cd ~/verus-mining-andiencoe/VERUSC
 chmod +x verus
 ./verus
 
 «Note: The "verus" file is already provided as a precompiled binary ready to run on Termux Android. Users do not need to compile it again.»
+
+---
+
+🔄 AUTO START VERUSC
+
+To automatically enter the VERUSC folder and run the miner every time a new Termux shell is opened, run:
+
+echo "cd ~/verus-mining-andiencoe/VERUSC && ./verus" >> ~/.bashrc
+
+After that, close and reopen Termux or start a new shell.
+
+VERUSC will automatically run:
+
+cd ~/verus-mining-andiencoe/VERUSC
+./verus
+
+---
+
+🛑 STOP MINING
+
+If VERUSC is currently running, press:
+
+CTRL + C
+
+This stops the running mining process.
+
+---
+
+❌ DISABLE AUTO START
+
+If you no longer want VERUSC to automatically start when opening a new Termux shell, run:
+
+sed -i '/verus-mining-andiencoe\/VERUSC && \.\/verus/d' ~/.bashrc
+
+Then close and reopen Termux.
+
+To check whether the auto-start line has been removed:
+
+grep "verus-mining-andiencoe/VERUSC" ~/.bashrc
+
+If there is no output, auto-start has been successfully disabled.
+
+«Note: Disabling auto-start does not delete the VERUSC program. You can still run it manually anytime with:»
+
+cd ~/verus-mining-andiencoe/VERUSC
+./verus
 
 ---
 
@@ -71,12 +117,13 @@ All copyrights, licenses, and credits for the original source code remain with t
 
 ---
 
-
 💰 SUPPORT THE PROJECT
-If you would like to support the development and maintenance of VERUSC / VERUS MINING ANDI ENCOE, you can send VRSC to the following wallet:
-RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
-🙏 Thank you for your support!
 
+If you would like to support the development and maintenance of VERUSC / VERUS MINING ANDI ENCOE, you can send VRSC to the following wallet:
+
+RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
+
+🙏 Thank you for your support!
 
 ---
 
