@@ -28,7 +28,7 @@ cd verus-mining-andiencoe
 
 Choose the folder you need.
 
-📌 Each folder contains its own README.md with installation and usage instructions.
+📌 Each folder contains its own "README.md" with installation and usage instructions.
 
 ---
 
@@ -76,8 +76,17 @@ Original developers and contributors include:
 
 ❤️ SUPPORT THE PROJECT
 
-Created by ANDI ENCOE
+If you would like to support the development and maintenance of VERUS MINING ANDI ENCOE, you can send VRSC to:
 
+RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
+
+Created by: ANDI ENCOE
 Telegram: t.me/AndiENCOE
 
-⛏️ Happy Mining!
+🙏 Thank you for your support!
+
+---
+
+⛏️ VERUS MINING ANDI ENCOE
+
+Happy Mining! 🚀
