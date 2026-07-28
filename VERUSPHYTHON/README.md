@@ -1,131 +1,152 @@
-⛏️ VERUS PYTHON MINER
+# ⛏️ VERUS PYTHON MINER
 
-An automatic, lightweight, and easy-to-use Verus Coin (VRSC) mining tool for Android phones using Termux.
+A lightweight, automatic, and easy-to-use **Verus Coin (VRSC)** mining tool for Android phones using **Termux**.
 
-Created by: ANDI ENCOE ✅
-Telegram: t.me/AndiEncoe
+✅ **Created by:** ANDI ENCOE  
+✅ **Telegram:** t.me/AndiEncoe
 
 ---
 
-✨ FEATURES
+## ✨ FEATURES
 
-- ✅ Supports Luckpool & Vipor
+- ✅ Supports Luckpool & Vipor pools
 - ✅ Adjustable CPU core usage
-- ✅ Automatically saves settings
+- ✅ Automatically saves mining settings
 - ✅ Designed for Android / Termux
-- ✅ Can be run directly with Python
-- ✅ Virtual environment ("venv") is not required
+- ✅ Runs directly with Python
+- ✅ No Python virtual environment (`venv`) required
 
 ---
 
-🚀 INSTALLATION & USAGE
+# 🚀 INSTALLATION & USAGE
 
-📱 TERMUX ANDROID
+## 📱 TERMUX ANDROID
 
-1. Update Termux
+### 1. Update Termux
 
+```bash
 pkg update && pkg upgrade -y
+```
 
-2. Install requirements
+### 2. Install Required Packages
 
+```bash
 pkg install python git libjansson -y
+```
 
-3. Clone the repository
+### 3. Clone the Repository
 
+```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+```
 
-4. Enter the VERUS PHYTHON folder
+### 4. Enter the VERUSPHYTHON Folder
 
+```bash
 cd verus-mining-andiencoe/VERUSPHYTHON
+```
 
-5. Run the miner
+### 5. Run the Miner
 
+```bash
 python vrs_miner.py
+```
 
-«Note: A Python virtual environment ("venv") is not required. The miner can run directly using the Python environment provided by Termux.»
+> **Note:** A Python virtual environment (`venv`) is **not required**. The miner runs directly using the Python environment provided by Termux.
 
 ---
 
-⚡ QUICK INSTALL — ONE COMMAND
+## ⚡ QUICK INSTALL (ONE COMMAND)
 
 Copy and paste the following command into Termux:
 
+```bash
 pkg update && pkg upgrade -y && pkg install python git libjansson -y && git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git && cd verus-mining-andiencoe/VERUSPHYTHON && python vrs_miner.py
+```
 
 ---
 
-🔄 RUN AGAIN
+## 🔄 RUN AGAIN
 
-If the repository has already been downloaded and the required packages have been installed:
+If the repository has already been downloaded and the required packages are already installed:
 
+```bash
 cd ~/verus-mining-andiencoe/VERUSPHYTHON
 python vrs_miner.py
+```
 
 ---
 
-🔄 AUTO START VERUS PYTHON MINER
+## 🔄 AUTO START VERUS PYTHON MINER
 
-To automatically enter the VERUSPHYTHON folder and run the miner every time a new Termux shell is opened, run:
+To automatically enter the **VERUSPHYTHON** folder and start the miner whenever a new Termux shell is opened, run:
 
+```bash
 echo "cd ~/verus-mining-andiencoe/VERUSPHYTHON && python vrs_miner.py" >> ~/.bashrc
+```
 
-After that, close and reopen Termux or start a new shell.
+After enabling Auto Start, close and reopen Termux or start a new shell.
 
-VERUS PYTHON MINER will automatically run:
-
-cd ~/verus-mining-andiencoe/VERUSPHYTHON
-python vrs_miner.py
-
-«Note: Auto-start will run the miner automatically every time a new Termux shell is opened. Make sure you only add this command once to "~/.bashrc".»
+> **Note:** Auto Start runs the miner automatically every time a new Termux shell is opened. Make sure this command is added **only once** to `~/.bashrc`.
 
 ---
 
-🛑 STOP MINING
+## 🛑 STOP MINING
 
 If the miner is currently running, press:
 
+```text
 CTRL + C
+```
 
-This stops the running mining process.
+This stops the mining process.
 
 ---
 
-❌ DISABLE AUTO START
+## ❌ DISABLE AUTO START
 
-If you no longer want the miner to automatically start when opening a new Termux shell:
+If you no longer want the miner to start automatically:
 
+```bash
 nano ~/.bashrc
+```
 
-Find and delete this line:
+Delete the following line:
 
+```bash
 cd ~/verus-mining-andiencoe/VERUSPHYTHON && python vrs_miner.py
+```
 
-Save the file and exit "nano".
+Save the file and exit `nano`.
 
 Then close and reopen Termux.
 
-🔍 CHECK AUTO START STATUS
+### 🔍 CHECK AUTO START STATUS
 
-To check whether the auto-start line is still present:
-
+```bash
 grep "verus-mining-andiencoe/VERUSPHYTHON" ~/.bashrc
+```
 
-If there is no output, auto-start has been successfully disabled.
+If there is no output, Auto Start has been successfully disabled.
 
-«Note: Disabling auto-start does not delete the miner. You can still run it manually at any time.»
+> **Note:** Disabling Auto Start does not delete the miner. You can still run it manually at any time:
 
+```bash
 cd ~/verus-mining-andiencoe/VERUSPHYTHON
 python vrs_miner.py
+```
 
 ---
 
-📚 SOURCE & ACKNOWLEDGEMENTS
+## 📚 SOURCE & ACKNOWLEDGEMENTS
 
-Core Mining Program: ccminer Verus
+### Core Mining Program
 
-The mining core used by VERUS PYTHON MINER is based on ccminer Verus.
+**ccminer Verus**
 
-Original Developers and Contributors
+The mining core used by **VERUS PYTHON MINER** is based on **ccminer Verus**.
+
+### Original Developers
 
 - Christian Buchner
 - Christian H. (Chris84)
@@ -134,18 +155,19 @@ Original Developers and Contributors
 - Oink70
 - zikyu7 — Android / ARM development
 
-🔗 Original repository:
+**Original Repository**
+
 https://github.com/zikyu7/ccminer
 
-🙏 Special thanks to zikyu7 and all original developers and contributors.
+🙏 Special thanks to **zikyu7** and all original developers and contributors.
 
-This project only simplifies the usage and configuration process.
+This project only simplifies the installation, configuration, and usage process.
 
-All copyrights, credits, and licenses for third-party programs remain with their original authors and are subject to their respective licenses.
+All copyrights, credits, and licenses for third-party software remain with their respective authors and contributors.
 
 ---
 
-⚠️ DISCLAIMER
+## ⚠️ DISCLAIMER
 
 Please use this program in accordance with the licenses and terms of the source projects used.
 
@@ -155,6 +177,10 @@ This project does not claim ownership of third-party mining software.
 
 ---
 
-⛏️ HAPPY MINING!
+## 👤 CREATOR
 
-— ANDI ENCOE
+**VERUS PYTHON MINER — ANDI ENCOE**
+
+**Telegram:** t.me/AndiEncoe
+
+⛏️ **Verus Coin Mining on Android / Termux**
