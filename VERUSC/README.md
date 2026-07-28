@@ -1,121 +1,145 @@
-📦 VERUSC - Verus Coin Mining for Termux Android
+# 📦 VERUSC - Verus Coin Mining for Termux Android
 
-✅ Created by: ANDI ENCOE
-✅ Telegram: t.me/AndiEncoe
+✅ **Created by:** ANDI ENCOE  
+✅ **Telegram:** t.me/AndiEncoe
 
 A lightweight and easy-to-use Verus Coin (VRSC) mining tool for Android phones running Termux.
 
 ---
 
-🚀 QUICK START
+## 🚀 QUICK START
 
 Run the following commands one by one in Termux.
 
-1. Update Termux packages
+### 1. Update Termux packages
 
+```bash
 pkg update && pkg upgrade -y
+```
 
-2. Install required packages
+### 2. Install required packages
 
+```bash
 pkg install libjansson git -y
+```
 
-3. Clone the repository
+### 3. Clone the repository
 
+```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+```
 
-4. Enter the VERUSC folder
+### 4. Enter the VERUSC folder
 
+```bash
 cd verus-mining-andiencoe/VERUSC
+```
 
-5. Give the binary execution permission
+### 5. Give execution permission
 
+```bash
 chmod +x verus
+```
 
-6. Run VERUSC
+### 6. Run VERUSC
 
+```bash
 ./verus
+```
 
 ---
 
-⚡ IF THE REPOSITORY IS ALREADY DOWNLOADED
+## ⚡ IF THE REPOSITORY IS ALREADY DOWNLOADED
 
 Simply run:
 
+```bash
 cd ~/verus-mining-andiencoe/VERUSC
 chmod +x verus
 ./verus
+```
 
-«Note: The "verus" file is already provided as a precompiled binary ready to run on Termux Android. Users do not need to compile it again.»
+> **Note:** The `verus` binary is already precompiled and ready to run on Termux Android. No compilation is required.
 
 ---
 
-🔄 AUTO START VERUSC
+## 🔄 AUTO START VERUSC
 
-To automatically enter the VERUSC folder and run the miner every time a new Termux shell is opened, run:
-cd ~/verus-mining-andiencoe/VERUSC && printf '1\n' | ./verus
+To automatically enter the VERUSC folder and start the miner every time a new Termux shell is opened, run:
+
+```bash
+echo "cd ~/verus-mining-andiencoe/VERUSC && printf '1\n' | ./verus" >> ~/.bashrc
+```
 
 After that, close and reopen Termux or start a new shell.
 
-VERUSC will automatically run:
-
-cd ~/verus-mining-andiencoe/VERUSC
-./verus
+> **Note:** This command automatically starts VERUSC and selects **Menu 1**.
 
 ---
 
-🛑 STOP MINING
+## 🛑 STOP MINING
 
 If VERUSC is currently running, press:
 
+```text
 CTRL + C
+```
 
-This stops the running mining process.
+This stops the mining process.
 
 ---
 
-❌ DISABLE AUTO START
+## ❌ DISABLE AUTO START
 
-If you no longer want VERUSC to automatically start when opening a new Termux shell:
+If you no longer want VERUSC to start automatically when opening a new Termux shell:
 
+```bash
 nano ~/.bashrc
+```
 
 Find and delete this line:
 
-cd ~/verus-mining-andiencoe/VERUSC && ./verus
+```bash
+cd ~/verus-mining-andiencoe/VERUSC && printf '1\n' | ./verus
+```
 
-Save the file and exit "nano".
+Save the file and exit `nano`.
 
 Then close and reopen Termux.
 
-Check Auto Start Status
+### 🔍 CHECK AUTO START STATUS
 
-To check whether the auto-start line has been removed:
-
+```bash
 grep "verus-mining-andiencoe/VERUSC" ~/.bashrc
+```
 
 If there is no output, auto-start has been successfully disabled.
 
-«Note: Disabling auto-start does not delete the VERUSC program. You can still run it manually anytime with:»
+> **Note:** Disabling auto-start does not delete VERUSC. You can still run it manually at any time:
 
+```bash
 cd ~/verus-mining-andiencoe/VERUSC
 ./verus
+```
 
 ---
 
-📚 SOURCE & ACKNOWLEDGEMENTS
+## 📚 SOURCE & ACKNOWLEDGEMENTS
 
-This mining program is based on development from ccminer Verus and contributions from its original developers and contributors.
+This mining program is based on **ccminer Verus** and contributions from its original developers and contributors.
 
-🔗 Source: https://github.com/zikyu7/ccminer
+**Source Repository**
 
-Special Thanks To
+https://github.com/zikyu7/ccminer
+
+### Special Thanks To
 
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- zikyu7 — Android/ARM development
+- zikyu7 — Android / ARM development
 - All ccminer developers and contributors
 
 The VERUSC project was created to simplify the usage and configuration of Verus mining on Termux Android.
@@ -124,19 +148,22 @@ All copyrights, licenses, and credits for the original source code remain with t
 
 ---
 
-💰 SUPPORT THE PROJECT
+## 💰 SUPPORT THE PROJECT
 
-If you would like to support the development and maintenance of VERUSC / VERUS MINING ANDI ENCOE, you can send VRSC to the following wallet:
+If you would like to support the development and maintenance of **VERUSC / VERUS MINING ANDI ENCOE**, you can send VRSC to:
 
+```text
 RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
+```
 
 🙏 Thank you for your support!
 
 ---
 
-⚠️ DISCLAIMER
+## ⚠️ DISCLAIMER
 
 Please use this program in accordance with the licenses and terms of the source projects used.
 
-VERUSC — ANDI ENCOE
-⛏️ Verus Coin Mining on Android/Termux
+**VERUSC — ANDI ENCOE**
+
+⛏️ Verus Coin Mining on Android / Termux
