@@ -1,13 +1,13 @@
-⛏️ VERUS VPS — Verus Coin (VRSC) Mining
+# ⛏️ VERUS VPS — Verus Coin (VRSC) Mining
 
-A lightweight Verus Coin (VRSC) mining tool designed for VPS / Linux servers running on x86-64 architecture.
+A lightweight **Verus Coin (VRSC)** mining tool designed for **VPS / Linux servers** running on **x86-64 architecture**.
 
-✅ Created by: ANDI ENCOE
-✅ Telegram: https://t.me/AndiEncoe
+✅ **Created by:** ANDI ENCOE  
+✅ **Telegram:** https://t.me/AndiEncoe
 
 ---
 
-✨ FEATURES
+## ✨ FEATURES
 
 - ✅ Verus Coin (VRSC) mining
 - ✅ Designed for VPS / Linux servers
@@ -15,173 +15,209 @@ A lightweight Verus Coin (VRSC) mining tool designed for VPS / Linux servers run
 - ✅ Hellminer-based mining
 - ✅ Ready-to-run binary
 - ✅ No compilation required
-- ✅ Supports background mining with "screen"
+- ✅ Supports background mining using `screen`
 
 ---
 
-💻 REQUIREMENTS
+## 💻 REQUIREMENTS
 
-Recommended Systems
+### Recommended Systems
 
 - Ubuntu 22.04 / 24.04 x86-64
 - Debian x86-64
 - Other compatible Linux x86-64 distributions
 
-Check VPS Architecture
+### Check VPS Architecture
 
 Run:
 
+```bash
 uname -m
+```
 
 If the output is:
 
+```text
 x86_64
+```
 
 your VPS is compatible with this binary.
 
-«⚠️ Note: This binary is compiled for Linux x86-64 and is not intended for ARM64 VPS.»
+> **Note:** This binary is compiled for **Linux x86-64** and is **not compatible with ARM64** VPS.
 
 ---
 
-🚀 INSTALLATION
+# 🚀 INSTALLATION
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+```
 
-2. Enter the VERUSVPS Directory
+### 2. Enter the VERUSVPS Directory
 
+```bash
 cd verus-mining-andiencoe/VERUSVPS
+```
 
-3. Make the Binary Executable
+### 3. Make the Binary Executable
 
+```bash
 chmod +x verus
+```
 
-4. Run the Miner
+### 4. Run VERUSVPS
 
+```bash
 ./verus
+```
 
-Press:
+To stop mining, press:
 
+```text
 CTRL + C
-
-to stop mining.
+```
 
 ---
 
-🖥️ RUN VERUSVPS WITH SCREEN
+## 🖥️ RUN VERUSVPS WITH SCREEN
 
-For VPS users, it is recommended to run VERUSVPS inside a "screen" session.
+It is recommended to run VERUSVPS inside a **screen** session so the miner continues running even after you disconnect from the VPS.
 
-This allows the miner to continue running after you disconnect from the VPS.
+### 1. Install Screen
 
-1. Install Screen
+Ubuntu / Debian:
 
-For Ubuntu / Debian:
-
+```bash
 apt update && apt install screen -y
+```
 
-2. Enter the VERUSVPS Directory
+### 2. Enter the VERUSVPS Directory
 
+```bash
 cd ~/verus-mining-andiencoe/VERUSVPS
+```
 
-3. Create a Screen Session
+### 3. Create a Screen Session
 
+```bash
 screen -S verusvps
+```
 
-4. Run the Miner
+### 4. Run the Miner
 
+```bash
 ./verus
+```
 
-VERUSVPS is now running inside the "screen" session.
+VERUSVPS is now running inside the **screen** session.
 
 ---
 
-🔄 DETACH FROM SCREEN
+## 🔄 DETACH FROM SCREEN
 
-To leave the "screen" session while keeping the miner running:
+To leave the screen session while keeping the miner running:
 
 Press:
 
+```text
 CTRL + A
-
-then press:
-
-D
-
-You can now disconnect from the VPS.
-
-«Note: The miner will continue running in the background while the "screen" session remains active.»
-
----
-
-🔙 RECONNECT TO VERUSVPS
-
-To return to the running miner:
-
-screen -r verusvps
-
----
-
-📋 CHECK SCREEN SESSIONS
-
-To see active screen sessions:
-
-screen -ls
-
-Example:
-
-There is a screen on:
-    12345.verusvps    (Detached)
-1 Socket in /run/screen/S-root.
-
----
-
-🛑 STOP MINING
-
-Reconnect to the screen session:
-
-screen -r verusvps
+```
 
 Then press:
 
-CTRL + C
+```text
+D
+```
 
-After the miner stops, exit the screen session:
+You can now safely disconnect from the VPS.
 
-exit
+> **Note:** The miner continues running as long as the **screen** session remains active.
 
 ---
 
-⛏️ MINING POOL
+## 🔙 RECONNECT TO THE MINER
 
-The binary is preconfigured with the mining settings required to connect to the pool.
+To return to the running screen session:
 
-When the miner successfully connects, you should see messages similar to:
+```bash
+screen -r verusvps
+```
 
+---
+
+## 📋 CHECK ACTIVE SCREEN SESSIONS
+
+To display all active screen sessions:
+
+```bash
+screen -ls
+```
+
+Example:
+
+```text
+There is a screen on:
+    12345.verusvps    (Detached)
+1 Socket in /run/screen/S-root.
+```
+
+---
+
+## 🛑 STOP MINING
+
+Reconnect to the screen session:
+
+```bash
+screen -r verusvps
+```
+
+Stop the miner by pressing:
+
+```text
+CTRL + C
+```
+
+Then exit the screen session:
+
+```bash
+exit
+```
+
+---
+
+## ⛏️ MINING POOL
+
+The binary is already preconfigured with the required mining pool settings.
+
+When the miner successfully connects, messages similar to the following will appear:
+
+```text
 Connecting to pool
 authorized miner
 accepted extra nonce subscription
+```
 
 ---
 
-📚 PROGRAM SOURCE
+## 📚 PROGRAM SOURCE
 
-The mining core used by VERUSVPS is Hellminer / hminer.
+The mining core used by **VERUSVPS** is based on **Hellminer (hminer)**.
 
-Original Source Repository
+### Original Repository
 
 https://github.com/hellcatz/hminer
 
-🙏 Special thanks to the original Hellminer developers and all contributors involved in the development of the mining software.
+🙏 Special thanks to the original **Hellminer** developers and all contributors.
 
-This project only simplifies the usage, configuration, and setup process for Verus mining on VPS / Linux servers.
+This project only simplifies the installation, configuration, and usage process for Verus mining on VPS / Linux servers.
 
-Copyrights, credits, and licenses for third-party components remain with their respective authors and projects.
+All copyrights, licenses, and credits for third-party software remain with their respective authors and projects.
 
 ---
 
-⚠️ DISCLAIMER
+## ⚠️ DISCLAIMER
 
 Please use this program in accordance with the licenses and terms of the source projects used.
 
@@ -189,20 +225,20 @@ All third-party software, source code, copyrights, and licenses remain the prope
 
 This project does not claim ownership of third-party mining software.
 
-Mining performance may vary depending on the VPS CPU, virtualization environment, operating system, temperature, network connection, and pool conditions.
+Mining performance may vary depending on the VPS hardware, CPU, virtualization environment, operating system, temperature, network connection, and mining pool conditions.
 
-«Important: If the VPS is rebooted, the "screen" session will be closed and VERUSVPS must be started again manually.»
+> **Important:** If the VPS is rebooted, the **screen** session will be closed. You must start VERUSVPS manually again after the system is back online.
 
 ---
 
-👤 CREATOR
+## 👤 CREATOR
 
-ANDI ENCOE
+**ANDI ENCOE**
 
-Telegram: https://t.me/AndiEncoe
+**Telegram:** https://t.me/AndiEncoe
 
-⛏️ VERUS VPS
+**VERUS VPS**
 
-Verus Coin (VRSC) Mining on VPS / Linux
+**Verus Coin (VRSC) Mining on VPS / Linux**
 
-⛏️ Happy Mining! 🚀
+⛏️ **Happy Mining! 🚀**
