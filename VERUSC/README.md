@@ -52,8 +52,7 @@ chmod +x verus
 🔄 AUTO START VERUSC
 
 To automatically enter the VERUSC folder and run the miner every time a new Termux shell is opened, run:
-
-echo "cd ~/verus-mining-andiencoe/VERUSC && ./verus" >> ~/.bashrc
+cd ~/verus-mining-andiencoe/VERUSC && printf '1\n' | ./verus
 
 After that, close and reopen Termux or start a new shell.
 
