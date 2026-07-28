@@ -23,7 +23,7 @@ A collection of Verus Coin (VRSC) mining tools for Android / Termux and Linux VP
 
 Clone the repository:
 
-git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git &&
 cd verus-mining-andiencoe
 
 Choose the folder you need.
