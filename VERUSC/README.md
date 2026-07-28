@@ -9,7 +9,7 @@ A lightweight and easy-to-use Verus Coin (VRSC) mining tool for Android phones r
 
 🚀 QUICK START
 
-Run the following commands one by one in Termux:
+Run the following commands one by one in Termux.
 
 1. Update Termux packages
 
@@ -76,14 +76,19 @@ This stops the running mining process.
 
 ❌ DISABLE AUTO START
 
-If you no longer want VERUSC to automatically start when opening a new Termux shell, run:
+If you no longer want VERUSC to automatically start when opening a new Termux shell:
 
 nano ~/.bashrc
-delete
+
+Find and delete this line:
+
 cd ~/verus-mining-andiencoe/VERUSC && ./verus
 
+Save the file and exit "nano".
 
 Then close and reopen Termux.
+
+Check Auto Start Status
 
 To check whether the auto-start line has been removed:
 
@@ -104,7 +109,7 @@ This mining program is based on development from ccminer Verus and contributions
 
 🔗 Source: https://github.com/zikyu7/ccminer
 
-Special Thanks To:
+Special Thanks To
 
 - Christian Buchner
 - Christian H. (Chris84)
