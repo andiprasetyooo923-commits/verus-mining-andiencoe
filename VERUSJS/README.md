@@ -14,7 +14,6 @@ A Node.js-based Verus Coin (VRSC) mining script for Android phones using Termux,
 - ✅ Supports Luckpool & Vipor pools
 - ✅ Adjustable CPU core usage
 - ✅ Automatically reconnects if the connection is lost
-- ✅ Two mining modes: `index.js` and `index-v2.js`
 - ✅ Designed for Android / Termux
 
 ---
@@ -30,8 +29,6 @@ Copy and paste the following command into Termux:
 ```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git && cd verus-mining-andiencoe/VERUSJS && pkg update && pkg upgrade -y && pkg install nodejs git libjansson -y && npm install && node index.js
 ```
-
-> **Note:** The Quick Install starts **index.js** by default.
 
 ---
 
@@ -71,63 +68,34 @@ npm install
 
 ## ▶️ RUN VERUSJS
 
-VERUSJS provides two mining modes.
-
-### 🔹 Option 1 — index.js
+Start the miner manually:
 
 ```bash
 node index.js
 ```
-
-### 🔹 Option 2 — index-v2.js
-
-```bash
-node index-v2.js
-```
-
-Choose the version that best suits your device and configuration.
 
 ---
 
 ## 🔄 RUN AGAIN
 
-If the repository has already been downloaded and dependencies are installed:
-
-### Option 1
+If VERUSJS has already been installed:
 
 ```bash
 cd ~/verus-mining-andiencoe/VERUSJS
 node index.js
 ```
 
-### Option 2
-
-```bash
-cd ~/verus-mining-andiencoe/VERUSJS
-node index-v2.js
-```
-
 ---
 
-## 🔄 AUTO START VERUSJS
+## 🚀 AUTO START VERUSJS
 
-Choose one version to start automatically whenever a new Termux shell is opened.
-
-### AUTO START — index.js
+To automatically launch VERUSJS and start mining whenever a new Termux session is opened:
 
 ```bash
-echo "cd ~/verus-mining-andiencoe/VERUSJS && node index.js" >> ~/.bashrc
+echo 'cd ~/verus-mining-andiencoe/VERUSJS && printf "1\n" | node index.js' >> ~/.bashrc
 ```
 
-### AUTO START — index-v2.js
-
-```bash
-echo "cd ~/verus-mining-andiencoe/VERUSJS && node index-v2.js" >> ~/.bashrc
-```
-
-> **Important:** Use only **one** of the commands above. Do **not** add both commands to `~/.bashrc`.
-
-After enabling Auto Start, close and reopen Termux or start a new shell.
+After enabling Auto Start, close and reopen Termux.
 
 ---
 
@@ -151,18 +119,10 @@ If you no longer want VERUSJS to start automatically:
 nano ~/.bashrc
 ```
 
-Delete the Auto Start line you previously added.
-
-### For index.js
+Delete the following line:
 
 ```bash
-cd ~/verus-mining-andiencoe/VERUSJS && node index.js
-```
-
-### For index-v2.js
-
-```bash
-cd ~/verus-mining-andiencoe/VERUSJS && node index-v2.js
+cd ~/verus-mining-andiencoe/VERUSJS && printf "1\n" | node index.js
 ```
 
 Save the file and exit `nano`.
@@ -177,7 +137,7 @@ grep "verus-mining-andiencoe/VERUSJS" ~/.bashrc
 
 If there is no output, Auto Start has been successfully disabled.
 
-> **Note:** Disabling Auto Start does not delete VERUSJS. You can still run either version manually at any time.
+> **Note:** Disabling Auto Start does not delete VERUSJS. You can still run it manually at any time.
 
 ---
 
@@ -194,7 +154,7 @@ VERUSJS uses **ccminer Verus** as its mining core.
 - Oink70
 - zikyu7 — Android / ARM development
 
-**Source Repository**
+### Source Repository
 
 https://github.com/zikyu7/ccminer
 
