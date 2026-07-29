@@ -4,23 +4,35 @@ Easy CPU mining on Android using unMineable.
 
 ---
 
-🚀 INSTALLATION & USAGE
+🚀 INSTALLATION
 
-1. Open the project folder
+1. Update Termux
+
+pkg update && pkg upgrade -y
+
+2. Install Git
+
+pkg install git -y
+
+3. Clone the repository
+
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+
+4. Open the project folder
 
 cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
 
-2. Grant execute permission
+5. Grant execute permission
 
 chmod +x miner xmrig-notls
 
-3. Start mining
+6. Start the miner
 
 ./miner
 
 Then follow the on-screen instructions:
 
-- Enter the coin code (use UPPERCASE, e.g. "LTC", "DOGE", "TRX")
+- Enter the coin code (UPPERCASE), e.g. "LTC", "DOGE", "TRX"
 - Enter your wallet address
 - Enter your worker/device name
 - Enter the number of CPU cores to use
@@ -63,8 +75,8 @@ https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe
 
 ---
 
-Z-MINING-UNMINEABLE
+👤 CREATOR
 
-Created by ANDI ENCOE
+ANDI ENCOE
 
 ⛏️ Easy Mining on Your Android Phone
