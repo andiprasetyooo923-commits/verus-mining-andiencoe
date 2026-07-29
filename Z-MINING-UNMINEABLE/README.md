@@ -1,41 +1,86 @@
 ⛏️ Z-MINING-UNMINEABLE
 
-Easy CPU mining on Android using unMineable.
+Easy CPU Mining on Android / Termux using unMineable (RandomX)
+
+✅ Created by: ANDI ENCOE
+✅ Telegram: @AndiENCOE
 
 ---
 
-🚀 INSTALLATION
+📌 DEVELOPER INFORMATION
 
-1. Update Termux
+- Version: Z-MINING-UNMINEABLE
+- Algorithm: RandomX
+- Mining Software: XMRig
+- Platform: Android / Termux
 
-pkg update && pkg upgrade -y
+---
 
-2. Install Git
+✨ MAIN FEATURES
 
-pkg install git -y
+- ✅ Easy setup and configuration
+- ✅ Supports unMineable RandomX mining
+- ✅ Supports multiple cryptocurrencies
+- ✅ Adjustable CPU core usage
+- ✅ Custom worker/device name
+- ✅ Lightweight and easy to use
+- ✅ Ready to run directly on Termux
 
-3. Clone the repository
+---
+
+📋 MINIMUM REQUIREMENTS
+
+- Android phone with at least 2 GB RAM
+- Latest version of Termux
+- Stable internet connection
+- RandomX-compatible CPU
+- Disable Battery Saver / Battery Optimization for Termux
+
+---
+
+📥 INSTALLATION & USAGE
+
+Open Termux and run the following commands one by one.
+
+1. Update Termux Packages
+
+yes | pkg update && pkg upgrade -y
+
+2. Install Required Packages
+
+yes | pkg install git -y
+
+3. Clone the Repository
 
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 
-4. Open the project folder
+4. Enter the Z-MINING-UNMINEABLE Folder
 
 cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
 
-5. Grant execute permission
+5. Grant Execute Permission
 
 chmod +x miner xmrig-notls
 
-6. Start the miner
+6. Start the Miner
 
 ./miner
 
-Then follow the on-screen instructions:
+Follow the on-screen instructions:
 
-- Enter the coin code (UPPERCASE), e.g. "LTC", "DOGE", "TRX"
+- Enter the coin code (UPPERCASE)
 - Enter your wallet address
 - Enter your worker/device name
 - Enter the number of CPU cores to use
+
+---
+
+🔄 RUN AGAIN
+
+If the repository has already been downloaded:
+
+cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
+./miner
 
 ---
 
@@ -45,7 +90,7 @@ Examples:
 
 "LTC" • "DOGE" • "TRX" • "SHIB" • "USDT" • "XRP" • "ADA" • "SOL" • "XMR"
 
-...and many other coins supported by unMineable using the RandomX algorithm.
+...and many other cryptocurrencies supported by unMineable using the RandomX algorithm.
 
 ---
 
@@ -55,13 +100,43 @@ Examples:
 - Do not add spaces before or after the coin code.
 - Leave at least 1 CPU core free for better device stability.
 - Stop mining immediately if your phone becomes excessively hot.
-- Avoid mining while the phone is charging to help reduce heat buildup.
+- Avoid mining while charging to help reduce heat buildup.
+
+---
+
+📚 SOURCE & ACKNOWLEDGEMENTS
+
+Core Mining Software
+
+XMRig
+
+The mining engine used by this project is XMRig.
+
+Original Project
+
+https://github.com/xmrig/xmrig
+
+🙏 Special thanks to the XMRig developers and all open-source contributors.
+
+This project only simplifies the installation, configuration, and usage process.
+
+All copyrights, credits, and licenses for third-party software remain with their respective authors and projects.
+
+---
+
+⚠️ DISCLAIMER
+
+Please use this program in accordance with the licenses and terms of the source projects used.
+
+All third-party software, source code, copyrights, and licenses remain the property of their respective developers and contributors.
+
+This project does not claim ownership of third-party mining software.
 
 ---
 
 💰 SUPPORT THE PROJECT
 
-If you'd like to support this project, donations are welcome:
+If you'd like to support this project, donations are welcome.
 
 MVn2ZTemsbJURfJhKfrAWZnDUr94hnd82D
 
@@ -69,14 +144,10 @@ Thank you for your support! 🙏
 
 ---
 
-📦 GITHUB REPOSITORY
-
-https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe
-
----
-
 👤 CREATOR
 
-ANDI ENCOE
+Z-MINING-UNMINEABLE — ANDI ENCOE
 
-⛏️ Easy Mining on Your Android Phone
+Telegram: @AndiENCOE
+
+⛏️ Easy CPU Mining on Android / Termux
