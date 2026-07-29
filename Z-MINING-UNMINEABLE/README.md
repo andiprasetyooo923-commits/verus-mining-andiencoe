@@ -51,7 +51,10 @@ yes | pkg update && pkg upgrade -y
 ### 2. Install Required Packages
 
 ```bash
-yes | pkg install git -y
+pkg update && pkg upgrade -y
+pkg install git -y
+pkg install libuv -y
+pkg install hwloc openssl -y
 ```
 
 ### 3. Clone the Repository
