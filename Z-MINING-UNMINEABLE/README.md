@@ -234,7 +234,7 @@ This project does not claim ownership of third-party mining software.
 If you would like to support the development and maintenance of **Z-MINING-UNMINEABLE**, you can send your donation to:
 
 ```text
-MVn2ZTemsbJURfJhKfrAWZnDUr94hnd82D
+(TRX)THbREaD5o9Ru48PpELKZngjW4NPpLzbp34
 ```
 
 🙏 Thank you for your support!
