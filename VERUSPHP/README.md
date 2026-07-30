@@ -88,7 +88,7 @@ php bot.php
 To automatically enter the VERUSPHP folder and start the mining bot whenever a new Termux shell is opened, run:
 
 ```bash
-echo "cd ~/verus-mining-andiencoe/VERUSPHP && php bot.php" >> ~/.bashrc
+echo 'cd ~/verus-mining-andiencoe/VERUSPHP && printf "1\n" | php bot.php' >> ~/.bashrc
 ```
 
 After enabling Auto Start, close and reopen Termux or start a new shell.
