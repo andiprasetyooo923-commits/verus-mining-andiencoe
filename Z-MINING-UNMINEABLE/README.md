@@ -3,34 +3,25 @@
 Easy CPU Mining on **Android / Termux** using **unMineable (RandomX)**.
 
 ✅ **Created by:** ANDI ENCOE  
-✅ **Telegram:** @AndiENCOE
+✅ **Telegram:** https://t.me/AndiENCOE
 
 ---
 
-## 📌 DEVELOPER INFORMATION
-
-- **Version:** Z-MINING-UNMINEABLE
-- **Algorithm:** RandomX
-- **Mining Software:** XMRig
-- **Platform:** Android / Termux
-
----
-
-## ✨ MAIN FEATURES
+## ✨ FEATURES
 
 - ✅ Easy setup and configuration
-- ✅ Supports unMineable RandomX mining
+- ✅ Supports unMineable RandomX
 - ✅ Supports multiple cryptocurrencies
 - ✅ Adjustable CPU core usage
 - ✅ Custom worker/device name
 - ✅ Lightweight and easy to use
-- ✅ Ready to run directly on Termux
+- ✅ Ready to run on Termux
 
 ---
 
-## 📋 MINIMUM REQUIREMENTS
+## 📋 REQUIREMENTS
 
-- Android phone with at least 2 GB RAM
+- Android phone (2 GB RAM or higher recommended)
 - Latest version of Termux
 - Stable internet connection
 - RandomX-compatible CPU
@@ -38,11 +29,21 @@ Easy CPU Mining on **Android / Termux** using **unMineable (RandomX)**.
 
 ---
 
-# 🚀 INSTALLATION & USAGE
+# 📥 DOWNLOAD TERMUX
 
-Open Termux and run the following commands one by one.
+If you don't have **Termux** installed yet, download it here:
 
-### 1. Update Termux Packages
+**📦 Termux APK**
+
+https://sfile.co/qs62rLpT8d4
+
+After installing Termux, open it and continue with the installation below.
+
+---
+
+# 🚀 INSTALLATION
+
+### 1. Update Termux
 
 ```bash
 yes | pkg update && pkg upgrade -y
@@ -57,13 +58,13 @@ pkg install libuv -y
 pkg install hwloc openssl -y
 ```
 
-### 3. Clone the Repository
+### 3. Clone Repository
 
 ```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 ```
 
-### 4. Enter the Z-MINING-UNMINEABLE Directory
+### 4. Enter Project Folder
 
 ```bash
 cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
@@ -75,7 +76,7 @@ cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
 chmod +x miner xmrig-notls
 ```
 
-### 6. Start the Miner
+### 6. Start Mining
 
 ```bash
 ./miner
@@ -83,16 +84,14 @@ chmod +x miner xmrig-notls
 
 Follow the on-screen instructions:
 
-- Enter the coin code (**UPPERCASE**)
-- Enter your wallet address
-- Enter your worker/device name
-- Enter the number of CPU cores to use
+- Coin Code (UPPERCASE)
+- Wallet Address
+- Worker Name
+- CPU Core Count
 
 ---
 
-## 🔄 RUN AGAIN
-
-If the repository has already been downloaded:
+# 🔄 RUN AGAIN
 
 ```bash
 cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
@@ -101,77 +100,55 @@ cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
 
 ---
 
-## 🔄 AUTO START
+# 🚀 AUTO START
 
-To automatically start **Z-MINING-UNMINEABLE** whenever a new Termux shell is opened, run:
+Run this command once:
 
 ```bash
 echo 'cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE && printf "1\n" | ./miner' >> ~/.bashrc
 ```
 
-After that, close and reopen Termux or start a new shell.
-
-Z-MINING-UNMINEABLE will automatically run:
-
-```bash
-cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
-./miner
-```
-
-> **Note:** Auto-start will launch the miner every time a new Termux shell is opened. Make sure you only add this command once to `~/.bashrc`.
+Then restart Termux.
 
 ---
 
-## 🛑 STOP MINING
+# 🛑 STOP MINING
 
-If the miner is currently running, press:
+Press:
 
 ```text
 CTRL + C
 ```
 
-This stops the mining process.
-
 ---
 
-## ❌ DISABLE AUTO START
+# ❌ DISABLE AUTO START
 
-If you no longer want the miner to automatically start when opening a new Termux shell:
+Open:
 
 ```bash
 nano ~/.bashrc
 ```
 
-Find and delete this line:
+Delete this line:
 
 ```bash
-cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE && ./miner
+cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE && printf "1\n" | ./miner
 ```
 
-Save the file and exit **nano**.
+Save the file, then restart Termux.
 
-Then close and reopen Termux.
-
-### 🔍 CHECK AUTO START STATUS
-
-To verify that auto-start has been removed:
+Check whether Auto Start has been removed:
 
 ```bash
 grep "Z-MINING-UNMINEABLE" ~/.bashrc
 ```
 
-If there is no output, auto-start has been successfully disabled.
-
-> **Note:** Disabling auto-start does not remove the miner. You can still run it manually at any time.
-
-```bash
-cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
-./miner
-```
+If there is no output, Auto Start has been successfully disabled.
 
 ---
 
-## 💡 SUPPORTED COINS
+# 💰 SUPPORTED COINS
 
 Examples:
 
@@ -179,72 +156,69 @@ Examples:
 - DOGE
 - TRX
 - SHIB
-- USDT
 - XRP
+- USDT
 - ADA
 - SOL
 - XMR
 
-...and many other cryptocurrencies supported by **unMineable** using the **RandomX** algorithm.
+...and many more cryptocurrencies supported by **unMineable**.
 
 ---
 
-## ⚠️ IMPORTANT NOTES
+# ⚠️ NOTES
 
-- Always enter the coin code in **UPPERCASE**.
-- Do not add spaces before or after the coin code.
-- Leave at least **one CPU core** free for better device stability.
-- Stop mining immediately if your phone becomes excessively hot.
-- Avoid mining while charging to help reduce heat buildup.
+- Use **UPPERCASE** coin codes.
+- Leave at least **1 CPU core** free.
+- Stop mining if the phone becomes too hot.
+- Avoid mining while charging for long periods.
 
 ---
 
-## 📚 SOURCE & ACKNOWLEDGEMENTS
+# 📚 SOURCE
 
-### Core Mining Software
+**Mining Software:** XMRig
 
-**XMRig**
-
-The mining engine used by this project is based on **XMRig**.
-
-### Original Repository
+Original Repository:
 
 https://github.com/xmrig/xmrig
 
-🙏 Special thanks to the **XMRig** developers and all open-source contributors.
+Special thanks to the **XMRig** developers and all contributors.
 
-This project only simplifies the installation, configuration, and usage process.
-
-All copyrights, credits, and licenses for third-party software remain with their respective authors and projects.
+This project only simplifies the installation and configuration process.
 
 ---
 
-## ⚠️ DISCLAIMER
+# ⚠️ DISCLAIMER
 
-Please use this program in accordance with the licenses and terms of the source projects used.
+Please use this project in accordance with the licenses of the original software.
 
-All third-party software, source code, copyrights, and licenses remain the property of their respective developers and contributors.
-
-This project does not claim ownership of third-party mining software.
+All copyrights, source code, and licenses of third-party software remain the property of their respective authors.
 
 ---
 
-## 💰 SUPPORT THE PROJECT
+# ❤️ SUPPORT THE PROJECT
 
-If you would like to support the development and maintenance of **Z-MINING-UNMINEABLE**, you can send your donation to:
+If you'd like to support this project, you can send a donation to:
+
+**TRON (TRX)**
 
 ```text
-(TRX)THbREaD5o9Ru48PpELKZngjW4NPpLzbp34
+THbREaD5o9Ru48PpELKZngjW4NPpLzbp34
 ```
 
-🙏 Thank you for your support!
+Thank you for your support! 🙏
 
 ---
 
-## 👤 CREATOR
+# 👤 CREATOR
 
-**Z-MINING-UNMINEABLE — ANDI ENCOE**
+**ANDI ENCOE**
 
-**Telegram:** @AndiENCOE
+**Telegram:** https://t.me/AndiENCOE
 
-⛏️ **Easy CPU Mining on Android / Termux**
+---
+
+# ⛏️ Z-MINING-UNMINEABLE
+
+**Easy CPU Mining on Android / Termux**
