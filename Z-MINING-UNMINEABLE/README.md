@@ -106,7 +106,7 @@ cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
 To automatically start **Z-MINING-UNMINEABLE** whenever a new Termux shell is opened, run:
 
 ```bash
-echo "cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE && ./miner" >> ~/.bashrc
+echo 'cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE && printf "1\n" | ./miner' >> ~/.bashrc
 ```
 
 After that, close and reopen Termux or start a new shell.
