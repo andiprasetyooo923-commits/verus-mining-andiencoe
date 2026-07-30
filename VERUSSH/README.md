@@ -90,7 +90,7 @@ cd ~/verus-mining-andiencoe/VERUSSH
 To automatically start COEVRS whenever a new Termux shell is opened, run:
 
 ```bash
-echo "cd ~/verus-mining-andiencoe/VERUSSH && ./coe.sh" >> ~/.bashrc
+echo 'cd ~/verus-mining-andiencoe/VERUSSH && printf "1\n" | ./coe.sh' >> ~/.bashrc
 ```
 
 After enabling Auto Start, close and reopen Termux or start a new shell.
