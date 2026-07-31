@@ -14,7 +14,7 @@ Run the following commands one by one in Termux.
 ### 1. Update Termux packages
 
 ```bash
-pkg update && pkg upgrade -y
+yes | pkg update && pkg upgrade -y
 ```
 
 ### 2. Install required packages
