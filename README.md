@@ -4,41 +4,41 @@ A collection of **cryptocurrency mining tools** for **Android / Termux** and **L
 
 ✅ **Created by:** ANDI ENCOE  
 ✅ **Telegram:** t.me/AndiENCOE  
-✅ **License:** MIT License (applies only to the original code created by ANDI ENCOE)
+✅ **License:** MIT License *(applies only to the original code created by ANDI ENCOE)*
 
 ---
 
-# 📂 AVAILABLE VERSIONS
+# 📂 AVAILABLE PROJECTS
 
-| Version | Platform | Language |
-|---------|----------|----------|
-| 📱 **VERUSC** | Android / Termux | C |
-| 📱 **VERUSJS** | Android / Termux | JavaScript (Node.js) |
-| 📱 **VERUSPHP** | Android / Termux | PHP |
-| 📱 **VERUSPHYTHON** | Android / Termux | Python |
-| 📱 **VERUSSH / COEVRS** | Android / Termux | Bash |
-| 🖥️ **VERUSVPS** | Linux VPS | Precompiled Binary (x86-64) |
-| ⛏️ **Z-MINING-UNMINEABLE** | Android / Termux | Bash + XMRig (RandomX) |
+| Project | Platform | Description |
+|---------|----------|-------------|
+| 📱 **VERUSC** | Android / Termux | Verus Coin miner written in C |
+| 📱 **VERUSJS** | Android / Termux | Verus Coin miner using Node.js |
+| 📱 **VERUSPHP** | Android / Termux | PHP-based Verus Coin miner |
+| 📱 **VERUSPHYTHON** | Android / Termux | Python-based Verus Coin miner |
+| 📱 **VERUSSH / COEVRS** | Android / Termux | Bash launcher for VerusHash mining |
+| 🖥️ **VERUSVPS** | Linux VPS | Hellminer-based Verus Coin miner |
+| ⛏️ **Z-MINING-UNMINEABLE** | Android / Termux | RandomX CPU miner for unMineable using XMRig |
 
-Each folder includes its own **README.md** containing complete installation and usage instructions.
+Each project contains its own **README.md** with complete installation and usage instructions.
 
 ---
 
 # 📥 DOWNLOAD TERMUX
 
-If you don't have **Termux** installed yet, download it here:
+If you don't have **Termux** installed yet, download it here.
 
 **📦 Termux APK**
 
 https://sfile.co/qs62rLpT8d4
 
-After installing Termux, open it and continue with the installation below.
+After installing Termux, open the application and continue with the installation instructions for your selected project.
 
 ---
 
 # 🚀 INSTALLATION
 
-Clone the repository:
+Clone this repository:
 
 ```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
@@ -50,7 +50,7 @@ Enter the project directory:
 cd verus-mining-andiencoe
 ```
 
-Choose the version that best fits your device or operating system.
+Then open the folder of the mining project you want to use and follow the instructions in its **README.md**.
 
 ---
 
@@ -73,19 +73,15 @@ verus-mining-andiencoe/
 
 # 📚 DOCUMENTATION
 
-Each version has its own dedicated documentation.
-
 | Folder | Description |
 |--------|-------------|
-| **VERUSC** | C-based Verus Coin miner for Android / Termux |
-| **VERUSJS** | JavaScript (Node.js) Verus Coin miner |
-| **VERUSPHP** | PHP-based Verus Coin mining bot |
-| **VERUSPHYTHON** | Python-based Verus Coin miner |
+| **VERUSC** | Verus Coin miner written in C |
+| **VERUSJS** | Verus Coin miner using Node.js |
+| **VERUSPHP** | Verus Coin miner using PHP |
+| **VERUSPHYTHON** | Verus Coin miner using Python |
 | **VERUSSH / COEVRS** | Bash launcher for VerusHash mining |
-| **VERUSVPS** | Linux VPS Verus Coin miner (Hellminer) |
+| **VERUSVPS** | Hellminer-based Verus Coin miner for Linux VPS |
 | **Z-MINING-UNMINEABLE** | RandomX CPU miner for unMineable using XMRig |
-
-Simply open the corresponding folder and follow the instructions provided in its **README.md**.
 
 ---
 
@@ -93,51 +89,49 @@ Simply open the corresponding folder and follow the instructions provided in its
 
 Please use this project in accordance with the licenses and terms of the original source projects.
 
-All third-party mining software, source code, binaries, copyrights, trademarks, and licenses remain the property of their respective developers and contributors.
+All third-party mining software, binaries, source code, copyrights, and licenses remain the property of their respective developers and contributors.
 
 This repository does **not** claim ownership of any third-party mining software.
 
-Mining performance may vary depending on the device, CPU, operating system, temperature, network connection, and mining pool conditions.
+Mining performance depends on your device, CPU, operating system, temperature, network connection, and mining pool conditions.
 
 ---
 
 # 📄 LICENSE
 
-The **MIT License** included in this repository applies **only** to the original scripts, documentation, and other materials created by **ANDI ENCOE**.
+The **MIT License** included in this repository applies **only** to the original scripts, documentation, and materials created by **ANDI ENCOE**.
 
-All third-party software distributed or referenced by this project remains licensed under its respective original licenses.
+Third-party software included or referenced in this repository remains licensed under its respective original licenses.
 
 ---
 
 # 🙏 SPECIAL THANKS
 
-This project would not be possible without the work of the original developers and contributors.
-
-Special thanks to:
+Special thanks to all original developers and contributors:
 
 - Christian Buchner
 - Christian H. (Chris84)
 - Tanguy Pruvot
 - Darktron
 - Oink70
-- zikyu7 — Android / ARM Development
-- monkins1010 — ARM ccminer
+- zikyu7
+- monkins1010
 - Hellminer developers and contributors
 - XMRig developers and contributors
 
-❤️ Thank you to all original developers and contributors for making these projects possible.
+❤️ Thank you for making these open-source mining projects possible.
 
 ---
 
 # ❤️ SUPPORT THE PROJECT
 
-If you would like to support the development and maintenance of **VERUS MINING ANDI ENCOE**, you can send **VRSC** to the following wallet:
+If you would like to support the development and maintenance of this project, you can send **VRSC** to:
 
 ```text
 RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
 ```
 
-🙏 Thank you for your support!
+Thank you for your support! 🙏
 
 ---
 
