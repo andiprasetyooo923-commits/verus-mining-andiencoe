@@ -36,6 +36,18 @@
 
 ---
 
+# 📥 DOWNLOAD TERMUX
+
+If you don't have **Termux** installed yet, download it here:
+
+**📦 Termux APK**
+
+https://sfile.co/qs62rLpT8d4
+
+After installing Termux, open it and continue with the installation below.
+
+---
+
 # 📥 INSTALLATION & USAGE
 
 Open Termux and run the following commands one by one.
