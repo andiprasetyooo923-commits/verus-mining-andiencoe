@@ -7,6 +7,18 @@ A lightweight and easy-to-use Verus Coin (VRSC) mining tool for Android phones r
 
 ---
 
+# 📥 DOWNLOAD TERMUX
+
+If you don't have **Termux** installed yet, download it here:
+
+**📦 Termux APK**
+
+https://sfile.co/qs62rLpT8d4
+
+After installing Termux, open it and continue with the installation below.
+
+---
+
 ## 🚀 QUICK START
 
 Run the following commands one by one in Termux.
