@@ -24,6 +24,18 @@ Each folder includes its own **README.md** containing complete installation and 
 
 ---
 
+# 📥 DOWNLOAD TERMUX
+
+If you don't have **Termux** installed yet, download it here:
+
+**📦 Termux APK**
+
+https://sfile.co/qs62rLpT8d4
+
+After installing Termux, open it and continue with the installation below.
+
+---
+
 # 🚀 INSTALLATION
 
 Clone the repository:
