@@ -82,7 +82,7 @@ python vrs_miner.py
 To automatically enter the **VERUSPHYTHON** folder and start the miner whenever a new Termux shell is opened, run:
 
 ```bash
-echo "cd ~/verus-mining-andiencoe/VERUSPHYTHON && python vrs_miner.py" >> ~/.bashrc
+echo 'cd ~/verus-mining-andiencoe/VERUSPHYTHON && printf "1\n" | python vrs_miner.py' >> ~/.bashrc
 ```
 
 After enabling Auto Start, close and reopen Termux or start a new shell.
