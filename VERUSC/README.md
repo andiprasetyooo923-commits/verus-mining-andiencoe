@@ -1,26 +1,34 @@
-# 📦 VERUSC - Verus Coin Mining for Android / Termux
+# ⛏️ VERUSC - Verus Coin Mining for Android / Termux
 
-A lightweight and easy-to-use **Verus Coin (VRSC)** mining tool for Android using **Termux**.
+Easy Verus Coin (VRSC) CPU Mining on **Android / Termux**.
 
 ✅ **Created by:** ANDI ENCOE  
-✅ **Telegram:** https://t.me/AndiENCOE
+✅ **Telegram:** t.me/AndiENCOE
+
+---
+
+## 📌 DEVELOPER INFORMATION
+
+- **Version:** 22.3
+- **Algorithm:** VerusHash 2.0
+- **Mining Software:** ccminer
+- **Platform:** Android / Termux
 
 ---
 
 ## ✨ FEATURES
 
+- ✅ Easy setup and configuration
 - ✅ Automatic CPU detection
-- ✅ Displays CPU model & total CPU cores
 - ✅ Adjustable CPU core usage
-- ✅ Supports LuckPool & Vipor
-- ✅ Add custom mining pools
-- ✅ Automatic pool connection check
-- ✅ Multiple mining modes (Default, Hybrid & Solo)
-- ✅ Create custom mining modes
-- ✅ Automatically saves settings
-- ✅ Automatic reconnection
-- ✅ Simple terminal interface
-- ✅ Ready to run on Android / Termux
+- ✅ Automatic miner setup
+- ✅ Built-in mining pool tester
+- ✅ Automatic reconnect
+- ✅ Automatic public IP detection
+- ✅ Live Verus Coin (VRSC) price
+- ✅ Version lock & update checker
+- ✅ Display running mining command
+- ✅ Lightweight and easy to use
 
 ---
 
@@ -32,37 +40,39 @@ If you don't have **Termux** installed yet, download it here:
 
 https://sfile.co/qs62rLpT8d4
 
-After installing Termux, open it and continue with the installation below.
+After installing Termux, continue with the installation below.
 
 ---
 
 # 🚀 INSTALLATION
 
-### 1. Update Termux
+Open **Termux** and run:
+
+### 1. Update packages
 
 ```bash
 yes | pkg update && pkg upgrade -y
 ```
 
-### 2. Install Required Packages
+### 2. Install required packages
 
 ```bash
-pkg install git libjansson -y
+pkg install git libjansson curl -y
 ```
 
-### 3. Clone Repository
+### 3. Clone repository
 
 ```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 ```
 
-### 4. Enter VERUSC Directory
+### 4. Enter VERUSC
 
 ```bash
 cd ~/verus-mining-andiencoe/VERUSC
 ```
 
-### 5. Grant Execute Permission
+### 5. Give permission
 
 ```bash
 chmod +x verus
@@ -76,63 +86,26 @@ chmod +x verus
 
 ---
 
-## 📋 MAIN MENU
+## ⚡ RUN AGAIN
 
-```
-1. Start Mining
-2. Change Wallet & Worker
-3. Change Used CPU Cores
-4. Change / Add Pool
-5. Select / Add Mining Mode
-6. Exit
-```
-
----
-
-## 🌐 SUPPORTED POOLS
-
-Built-in pools:
-
-- LuckPool Asia
-- Vipor Asia
-
-You can also add any custom Verus mining pool.
-
----
-
-## ⚙️ MINING MODES
-
-- Default
-- Hybrid
-- Solo
-- Custom Mode
-
----
-
-## 🔄 RUN AGAIN
+If the repository has already been downloaded:
 
 ```bash
 cd ~/verus-mining-andiencoe/VERUSC
 ./verus
 ```
 
-> **Note:** The `verus` binary is already precompiled for Android / Termux. No compilation is required.
-
 ---
 
-## 🚀 AUTO START
+## 🔄 AUTO START
+
+Automatically start VERUSC every time Termux is opened.
 
 ```bash
 echo 'cd ~/verus-mining-andiencoe/VERUSC && printf "1\n" | ./verus' >> ~/.bashrc
 ```
 
-Restart Termux after running the command.
-
-VERUSC will automatically:
-
-- Open the VERUSC directory
-- Start the miner
-- Automatically select **Menu 1**
+Close and reopen Termux.
 
 ---
 
@@ -148,7 +121,7 @@ CTRL + C
 
 ## ❌ DISABLE AUTO START
 
-Open:
+Edit `.bashrc`
 
 ```bash
 nano ~/.bashrc
@@ -160,49 +133,71 @@ Delete this line:
 cd ~/verus-mining-andiencoe/VERUSC && printf "1\n" | ./verus
 ```
 
-Save the file, then restart Termux.
+Save the file.
 
-Check Auto Start:
+Check:
 
 ```bash
-grep "verus-mining-andiencoe/VERUSC" ~/.bashrc
+grep "VERUSC" ~/.bashrc
 ```
+
+If nothing is displayed, auto start has been removed successfully.
+
+---
+
+## 📋 MAIN MENU
+
+```
+1. Start Mining
+2. Change Wallet & Worker
+3. Adjust Core Usage
+4. Change Mining Pool
+5. Select Mining Mode
+6. Exit
+```
+
+---
+
+## 🌐 DEFAULT POOLS
+
+- Luckpool Asia
+- Vipor Asia
+- Custom Pool
+
+---
+
+## ⚠️ NOTES
+
+- Use a valid VRSC wallet.
+- Leave at least one CPU core free for better stability.
+- Stop mining if the phone becomes excessively hot.
+- Disable battery optimization for Termux.
 
 ---
 
 ## 📚 SOURCE & ACKNOWLEDGEMENTS
 
-Mining Core:
+VERUSC uses **ccminer** as its mining engine.
 
-**ccminer Verus**
-
-Original Repository:
+Original project:
 
 https://github.com/zikyu7/ccminer
 
-Special thanks to:
+Special thanks to all ccminer developers and contributors.
 
-- Christian Buchner
-- Christian H. (Chris84)
-- Tanguy Pruvot
-- Darktron
-- Oink70
-- zikyu7
-- All ccminer developers and contributors
-
-This project simplifies the installation and configuration of Verus mining on Android / Termux.
+This project simplifies the installation and configuration process for Android / Termux.
 
 ---
 
 ## 💰 SUPPORT THE PROJECT
 
-If you would like to support this project, you can donate VRSC to:
+Donate VRSC:
 
 ```text
 RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
 ```
 
-🙏 Thank you for your support!
+Thank you for your support.
 
 ---
 
@@ -210,7 +205,7 @@ RPDY7CtU9kanXYrugZ4a2N8Hr3kF3rzCUw
 
 Please use this project in accordance with the licenses of the original software.
 
-All third-party software, copyrights, and licenses remain the property of their respective authors.
+All third-party software remains the property of its respective authors.
 
 ---
 
@@ -218,10 +213,6 @@ All third-party software, copyrights, and licenses remain the property of their 
 
 **ANDI ENCOE**
 
-**Telegram:** https://t.me/AndiENCOE
+**Telegram:** t.me/AndiENCOE
 
----
-
-# 📦 VERUSC
-
-**Verus Coin Mining for Android / Termux**
+⛏️ **Easy Verus Coin Mining on Android / Termux**
