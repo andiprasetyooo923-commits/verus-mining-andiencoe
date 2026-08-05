@@ -9,8 +9,8 @@ Easy Verus Coin (VRSC) CPU Mining on **Android / Termux**.
 
 ## 📌 DEVELOPER INFORMATION
 
-- **Version:** 22.3
-- **Algorithm:** VerusHash 2.0
+- **Version:** 2.2
+- **Algorithm:** VerusHash 2.2
 - **Mining Software:** ccminer
 - **Platform:** Android / Termux
 
