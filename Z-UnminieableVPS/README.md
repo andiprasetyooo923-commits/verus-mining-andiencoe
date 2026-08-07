@@ -36,9 +36,9 @@ echo "1" | ./miner
 ./miner
 
 
-3. Update your preferred coin and wallet address from the menu
+2. Update your preferred coin and wallet address from the menu
 ​
-4. Select option  1  again to restart mining with your new settings
+3. Select option  1  again to restart mining with your new settings
 
 ---
 
