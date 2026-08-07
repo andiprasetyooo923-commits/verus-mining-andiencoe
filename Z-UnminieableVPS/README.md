@@ -31,7 +31,7 @@ echo "1" | ./miner
 ##  📖 HOW TO USE
  
 1. Press  CTRL + C  to stop the miner
-​2.
+​
 ```bash
 ./miner
 
