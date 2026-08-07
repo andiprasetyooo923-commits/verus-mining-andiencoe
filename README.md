@@ -19,7 +19,7 @@ A collection of **cryptocurrency mining tools** for **Android / Termux** and **L
 | 📱 **VERUSSH / COEVRS** | Android / Termux | Bash launcher for VerusHash mining |
 | 🖥️ **VERUSVPS** | Linux VPS | Hellminer-based Verus Coin miner |
 | ⛏️ **Z-MINING-UNMINEABLE** | Android / Termux | RandomX CPU miner for unMineable using XMRig |
-|⛏️Z-UnminieableVPS using XMrig |
+| ⛏️ **Z-UnminieableVPS** | Linux VPS | RandomX CPU mining for unMineable using XMRig |
 
 Each project contains its own **README.md** with complete installation and usage instructions.
 
