@@ -35,6 +35,8 @@ echo "1" | ./miner
 ```bash
 ./miner
 
+```
+
 
 2. Update your preferred coin and wallet address from the menu
 ​
