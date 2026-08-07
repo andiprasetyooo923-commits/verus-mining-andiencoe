@@ -69,23 +69,8 @@ verus-mining-andiencoe/
 ├── Z-UnminieableVPS/
 ├── LICENSE
 └── README.md
-```
 
----
-
-# 📚 DOCUMENTATION
-
-| Folder | Description |
-|--------|-------------|
-| **VERUSC** | Verus Coin miner written in C |
-| **VERUSJS** | Verus Coin miner using Node.js |
-| **VERUSPHP** | Verus Coin miner using PHP |
-| **VERUSPHYTHON** | Verus Coin miner using Python |
-| **VERUSSH / COEVRS** | Bash launcher for VerusHash mining |
-| **VERUSVPS** | Hellminer-based Verus Coin miner for Linux VPS |
-| **Z-MINING-UNMINEABLE** | RandomX CPU miner for unMineable using XMRig |
-
----
+ ```
 
 # ⚠️ DISCLAIMER
 
