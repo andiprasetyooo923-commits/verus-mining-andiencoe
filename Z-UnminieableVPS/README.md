@@ -31,10 +31,14 @@ echo "1" | ./miner
 ##  📖 HOW TO USE
  
 1. Press  CTRL + C  to stop the miner
+​2.
+```bash
+./miner
+
+
+3. Update your preferred coin and wallet address from the menu
 ​
-2. Update your preferred coin and wallet address from the menu
-​
-3. Select option  1  again to restart mining with your new settings
+4. Select option  1  again to restart mining with your new settings
 
 ---
 
