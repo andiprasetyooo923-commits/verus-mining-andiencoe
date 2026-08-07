@@ -83,11 +83,10 @@ Coin, wallet, worker, CPU cores, dan pool dapat diubah melalui menu miner.
 
 ## ⚠️ NOTES
 
-- Gunakan wallet yang valid.
-- Pastikan VPS mengizinkan CPU mining.
-- Sesuaikan jumlah CPU cores.
-- Gunakan `screen` agar miner tetap berjalan setelah disconnect.
-
+- Use a valid wallet.
+- Make sure your VPS allows CPU mining.
+- Adjust the number of CPU cores as needed.
+- Use `screen` so the miner keeps running after disconnecting.
 ---
 
 ## 👤 CREATOR
