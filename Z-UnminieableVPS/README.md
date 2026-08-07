@@ -1,40 +1,98 @@
-#⛏️ Z-UNMINIEABLEVPS — Unmineable CPU Mining
-A lightweight CPU mining tool designed for VPS / Linux servers running on x86-64 architecture and using the unMineable mining pool.
-✅ Created by: ANDI ENCOE
-✅ Telegram: https://t.me/AndiEncoe
+# ⛏️ Z-UNMINIEABLEVPS — Unmineable CPU Mining
+
+Lightweight **RandomX CPU miner** for **VPS / Linux x86-64** using **XMRig + unMineable**.
+
+✅ **Created by:** ANDI ENCOE  
+✅ **Telegram:** t.me/AndiEncoe
 
 ---
 
-##✨ FEATURES
- * ✅ Supports unMineable mining
- * ✅ RandomX CPU mining (XMRig)
- * ✅ Designed for VPS / Linux servers (x86-64)
- * ✅ No compilation required
- * ✅ Automatic configuration
- * ✅ Custom wallet, worker & CPU cores
- * ✅ Supports background mining using screen
+## ✨ FEATURES
+
+- ✅ Supports multiple coins
+- ✅ RandomX / XMRig
+- ✅ Automatic configuration
+- ✅ Custom wallet & worker
+- ✅ Adjustable CPU cores
+- ✅ Auto reconnect
+- ✅ Supports `screen`
 
 ---
 
-##🚀 INSTALLATION & RUNNING
-Run these commands on your VPS terminal:
+## 🚀 INSTALLATION
+
+```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 cd verus-mining-andiencoe/Z-UnminieableVPS
 chmod +x miner
 ./miner
+```
 
 ---
 
-##🖥️ RUN WITH SCREEN (BACKGROUND)
+## 🖥️ RUN WITH SCREEN
+
+```bash
 apt update && apt install screen -y
 cd ~/verus-mining-andiencoe/Z-UnminieableVPS
 screen -S unmineable
 ./miner
+```
 
- * Minimize Screen: Press CTRL + A then D
- * Reconnect Screen: screen -r unmineable
- * Stop Mining: CTRL + C inside screen, then type exit
+**Detach:** `CTRL + A` lalu `D`
 
-##👤 CREATOR
-ANDI ENCOE
-Telegram: https://t.me/AndiEncoe
+**Reconnect:**
+
+```bash
+screen -r unmineable
+```
+
+**Check screen:**
+
+```bash
+screen -ls
+```
+
+**Stop mining:** `CTRL + C`
+
+---
+
+## 💻 CHECK ARCHITECTURE
+
+```bash
+uname -m
+```
+
+Compatible:
+
+```text
+x86_64
+```
+
+---
+
+## ⛏️ DEFAULT POOL
+
+```text
+stratum+ssl://rx.unmineable.com:443
+```
+
+Coin, wallet, worker, CPU cores, dan pool dapat diubah melalui menu miner.
+
+---
+
+## ⚠️ NOTES
+
+- Gunakan wallet yang valid.
+- Pastikan VPS mengizinkan CPU mining.
+- Sesuaikan jumlah CPU cores.
+- Gunakan `screen` agar miner tetap berjalan setelah disconnect.
+
+---
+
+## 👤 CREATOR
+
+**ANDI ENCOE**  
+Telegram: t.me/AndiEncoe
+
+⛏️ **Happy Mining!**
