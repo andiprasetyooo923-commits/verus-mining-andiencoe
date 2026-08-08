@@ -1,4 +1,4 @@
-#⛏️ Z-MINING-UNMINEABLESH
+# ⛏️ Z-MINING-UNMINEABLESH
 
 Easy CPU Mining on Android / Termux using unMineable RandomX
 
@@ -7,7 +7,7 @@ Easy CPU Mining on Android / Termux using unMineable RandomX
 
 ---
 
-##✨ FEATURES
+## ✨ FEATURES
 
 - ✅ Easy setup and configuration
 - ✅ Supports unMineable RandomX
@@ -21,7 +21,7 @@ Easy CPU Mining on Android / Termux using unMineable RandomX
 
 ---
 
-##📁 PROJECT STRUCTURE
+## 📁 PROJECT STRUCTURE
 
 Z-MINING-UNMINEABLESH/
 ├── README.md
@@ -36,7 +36,7 @@ File Description
 
 ---
 
-##📋 REQUIREMENTS
+## 📋 REQUIREMENTS
 
 - Android phone
 - 2 GB RAM or higher recommended
@@ -59,9 +59,9 @@ After installing Termux, open it and continue with the installation below.
 
 ---
 
-#🚀 INSTALLATION
+# 🚀 INSTALLATION
 
-###1. Update Termux
+### 1. Update Termux
 ```bash
 yes | pkg update && pkg upgrade -y
 ```
@@ -74,15 +74,15 @@ pkg install git -y
 pkg install libuv -y
 pkg install hwloc openssl -y
 ```
-###4. Enter Project Folder
+### 4. Enter Project Folder
 ```bash
 cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLESH
 ```
-###5. Give Execute Permission
+### 5. Give Execute Permission
 ```bash
 chmod +x run.sh xmrig
 ```
-#6. Start Mining
+# 6. Start Mining
 ```bash
 ./run.sh
 ```
@@ -95,7 +95,7 @@ CPU Core Count
 
 ---
 
-#🔄 RUN AGAIN
+# 🔄 RUN AGAIN
 
 To start the miner again:
 ```bash
@@ -104,7 +104,7 @@ cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLESH
 ```
 ---
 
-#⚙️ CPU CORE USAGE
+# ⚙️ CPU CORE USAGE
 
 When "run.sh" asks for the CPU core count, choose according to your device.
 
@@ -119,7 +119,7 @@ It is recommended to leave at least 1 CPU core free for normal Android system op
 
 ---
 
-#🚀 AUTO START
+# 🚀 AUTO START
 
 Auto Start can automatically launch the miner when a new Termux shell starts.
 
@@ -139,7 +139,7 @@ Auto Start will:
 
 ---
 
-#🛑 STOP MINING
+# 🛑 STOP MINING
 
 Press:
 
@@ -167,7 +167,7 @@ If there is no output, Auto Start has been successfully disabled.
 
 ---
 
-#💰 SUPPORTED COINS
+# 💰 SUPPORTED COINS
 
 Examples:
 
@@ -187,7 +187,7 @@ And many other cryptocurrencies supported by unMineable.
 
 ---
 
-#🌐 MINING
+# 🌐 MINING
 
 This project uses unMineable for pool/service infrastructure and XMRig as the RandomX CPU mining engine.
 
@@ -195,7 +195,7 @@ The "run.sh" launcher simplifies the configuration and startup process.
 
 ---
 
-#📚 MINING SOFTWARE
+# 📚 MINING SOFTWARE
 
 XMRig
 
@@ -209,7 +209,7 @@ This project simplifies the installation and configuration process for Android /
 
 ---
 
-#⚠️ IMPORTANT NOTES
+# ⚠️ IMPORTANT NOTES
 
 - Use UPPERCASE for Coin Code.
 - Make sure your wallet address is correct.
@@ -223,7 +223,7 @@ This project simplifies the installation and configuration process for Android /
 
 ---
 
-#⚠️ DISCLAIMER
+# ⚠️ DISCLAIMER
 
 This project is provided for educational and personal use.
 
@@ -235,7 +235,7 @@ XMRig is an independent open-source project and is not affiliated with ANDI ENCO
 
 ---
 
-#❤️ SUPPORT THE PROJECT
+# ❤️ SUPPORT THE PROJECT
 
 If you would like to support this project, you can send a donation to:
 
@@ -247,7 +247,7 @@ Thank you for your support! 🙏
 
 ---
 
-#👤 CREATOR
+# 👤 CREATOR
 
 ANDI ENCOE
 
@@ -257,7 +257,7 @@ https://t.me/AndiENCOE
 ```
 ---
 
-#⛏️ Z-MINING-UNMINEABLESH
+# ⛏️ Z-MINING-UNMINEABLESH
 
 Easy CPU Mining on Android / Termux
 
