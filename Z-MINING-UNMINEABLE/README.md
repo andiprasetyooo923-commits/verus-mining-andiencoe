@@ -79,7 +79,7 @@ chmod +x UNMINEABLE run
 ### 6. Start Mining
 
 ```bash
-./miner
+./run
 ```
 
 Follow the on-screen instructions:
