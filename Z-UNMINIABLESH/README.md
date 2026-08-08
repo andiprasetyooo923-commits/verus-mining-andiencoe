@@ -66,13 +66,13 @@ After installing Termux, open it and continue with the installation below.
 yes | pkg update && pkg upgrade -y
 ```
 
-### 3. Clone Repository
+### 2. Clone Repository
 
 ```bash
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
 ```
 
-### 2. Install Required Packages
+### 3. Install Required Packages
 
 ```bash
 pkg update && pkg upgrade -y
