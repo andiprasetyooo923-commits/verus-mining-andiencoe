@@ -82,7 +82,7 @@ git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.gi
 
 ### 4. Enter Project Folder
 ```bash
-cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLESH
+cd ~/verus-mining-andiencoe && cd Z-UNMINIABLESH
 ```
 ### 5. Give Execute Permission
 ```bash
