@@ -73,7 +73,7 @@ cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
 ### 5. Grant Execute Permission
 
 ```bash
-chmod +x miner xmrig-notls
+chmod +x UNMINEABLE run
 ```
 
 ### 6. Start Mining
@@ -105,7 +105,7 @@ cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE
 Run this command once:
 
 ```bash
-echo 'cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE && printf "1\n" | ./miner' >> ~/.bashrc
+echo 'cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE && printf "1\n" | ./run' >> ~/.bashrc
 ```
 
 Then restart Termux.
