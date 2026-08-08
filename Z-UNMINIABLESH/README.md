@@ -65,14 +65,7 @@ After installing Termux, open it and continue with the installation below.
 ```bash
 yes | pkg update && pkg upgrade -y
 ```
-
-### 2. Clone Repository
-
-```bash
-git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
-```
-
-### 3. Install Required Packages
+### 2. Install Required Packages
 
 ```bash
 pkg update && pkg upgrade -y
@@ -80,8 +73,13 @@ pkg install git -y
 pkg install libuv -y
 pkg install hwloc openssl -y
 
-
 ```
+### 3. Clone Repository
+
+```bash
+git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git
+```
+
 ### 4. Enter Project Folder
 ```bash
 cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLESH
