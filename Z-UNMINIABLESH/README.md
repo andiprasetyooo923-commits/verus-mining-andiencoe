@@ -131,7 +131,7 @@ Auto Start can automatically launch the miner when a new Termux shell starts.
 
 Run this command once:
 ```bash
-echo 'cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLESH && printf "1\n" | ./run.sh' >> ~/.bashrc
+echo 'cd ~/verus-mining-andiencoe && cd Z-UNMINIABLESH && printf "1\n" | ./run.sh' >> ~/.bashrc
 ```
 Then restart Termux.
 
