@@ -105,7 +105,7 @@ CPU Core Count
 
 To start the miner again:
 ```bash
-cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLESH
+cd ~/verus-mining-andiencoe && cd Z-UNMINIABLESH
 ./run.sh
 ```
 ---
