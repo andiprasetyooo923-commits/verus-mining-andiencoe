@@ -18,10 +18,12 @@ A collection of **cryptocurrency mining tools** for **Android / Termux** and **L
 | 📱 **VERUSPHYTHON** | Android / Termux | Python-based Verus Coin miner |
 | 📱 **VERUSSH / COEVRS** | Android / Termux | Bash launcher for VerusHash mining |
 | 🖥️ **VERUSVPS** | Linux VPS | Hellminer-based Verus Coin miner |
+| ⛏️ **Z-MINING-UNMINEABLE-OLDPHONE** | Android / Termux | RandomX CPU miner for old Android phones using XMRig |
 | ⛏️ **Z-MINING-UNMINEABLE** | Android / Termux | RandomX CPU miner for unMineable using XMRig |
-| ⛏️ **Z-UnminieableVPS** | Linux VPS | RandomX CPU mining for unMineable using XMRig |
+| ⛏️ **Z-UNMINIABLESH** | Android / Termux | Shell-based unMineable mining |
+| 🖥️ **Z-UnminieableVPS** | Linux VPS | RandomX CPU mining for unMineable using XMRig |
 
-Each project contains its own **README.md** with complete installation and usage instructions.
+Each project contains its own **README.md** with installation and usage instructions.
 
 ---
 
@@ -53,6 +55,12 @@ cd verus-mining-andiencoe
 
 Then open the folder of the mining project you want to use and follow the instructions in its **README.md**.
 
+Example:
+
+```bash
+cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLE-OLDPHONE
+```
+
 ---
 
 # 📁 PROJECT STRUCTURE
@@ -65,12 +73,15 @@ verus-mining-andiencoe/
 ├── VERUSPHYTHON/
 ├── VERUSSH/
 ├── VERUSVPS/
+├── Z-MINING-UNMINEABLE-OLDPHONE/
 ├── Z-MINING-UNMINEABLE/
+├── Z-UNMINIABLESH/
 ├── Z-UnminieableVPS/
 ├── LICENSE
 └── README.md
+```
 
- ```
+---
 
 # ⚠️ DISCLAIMER
 
@@ -102,7 +113,6 @@ Special thanks to all original developers and contributors:
 - Darktron
 - Oink70
 - zikyu7
-- monkins1010
 - Hellminer developers and contributors
 - XMRig developers and contributors
 
