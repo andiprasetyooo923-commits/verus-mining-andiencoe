@@ -25,22 +25,16 @@ Lightweight **RandomX CPU miner** for **VPS / Linux x86-64** using **XMRig + unM
 git clone https://github.com/andiprasetyooo923-commits/verus-mining-andiencoe.git && \
 cd verus-mining-andiencoe/Z-UnminieableVPS && \
 chmod +x miner && \
-echo "1" | ./miner
+./miner
 
 ```
 ##  📖 HOW TO USE
  
 1. Press  CTRL + C  to stop the miner
-​
+​Press `CTRL + C` to stop the miner.
+
 ```bash
 ./miner
-
-```
-
-
-2. Update your preferred coin and wallet address from the menu
-​
-3. Select option  1  again to restart mining with your new settings
 
 ---
 
