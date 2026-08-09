@@ -161,7 +161,7 @@ nano ~/.bashrc
 ```
 Remove this line:
 ```bash
-cd ~/verus-mining-andiencoe/Z-MINING-UNMINEABLESH && printf "1\n" | ./run.sh
+cd ~/verus-mining-andiencoe && cd Z-UNMINIABLESH && printf "1\n" | ./run.sh' >> ~/.bashrc
 ```
 Save the file and restart Termux.
 
